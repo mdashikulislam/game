@@ -79,12 +79,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#games">Games</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#team">Team</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#careers">Careers</a>
-                    </li>
+
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact</a>
                     </li>
@@ -92,9 +87,7 @@
             </div>
         </div>
     </nav>
-</header><!-- Header End -->
-
-<!-- /// HERO SECTION /// -->
+</header>
 <div id="hero-section" class="medium-margin">
     <div class="row hero-unit">
         <div class="hero-overlay"></div>
@@ -105,11 +98,9 @@
             <h1>WE MAKE <span class="colored">AWESOME</span> GAMES</h1>
         </div>
     </div>
-</div><!-- Hero Section End -->
+</div>
 
-<!-- /// Main Container /// -->
 <div class="container">
-    <!-- /// ABOUT SECTION /// -->
     <div id="about" class="large-margin">
         <a href="about"></a><!-- Nav Anchor -->
         <div class="row heading tiny-margin">
@@ -130,7 +121,6 @@
             </div>
         </div>
     </div>
-    <!-- /// GAMES SECTION /// -->
     <div id="games" class="large-margin">
         <a href="games"></a><!-- Nav Anchor -->
         <div class="row heading tiny-margin">
@@ -317,9 +307,2129 @@
                     </div>
                 </div>
             </div>
+            <div class="row game-card">
+                <div class="col-lg-12 col-xl-5 game-card-left">
+                    <a href="#" class="js-video-button" data-video-id='DPBW_MFqeRs' data-channel="youtube"> <!-- Video link goes here -->
+                        <div class="overlay">
+                            <i class="fa fa-play fa-3x"></i>
+                        </div>
+                        <img src="{{asset('frontend/images/placeholder.jpg')}}" data-src="{{asset('frontend/images/game.jpg')}}" class="img-fluid b-lazy" alt="video thumbnail"> <!-- Video Thumbnail Img -->
+                    </a>
+                </div>
+                <div class="col-lg-12 col-xl-7 game-card-right">
+                    <h2 class="short-hr-left">Spot The Difference</h2>
+                    <p class="game-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis rhoncus nibh. Phasellus dignissim luctus consectetur. Fusce viverra est non purus ultrices, vel molestie massa tincidunt. <span class="expand colored strong" data-toggle="modal" data-target="#game1">Read More</span></p>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade game-modal" id="game1" tabindex="-1" role="dialog" aria-labelledby="scales" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title" id="scales">SWORDS &amp; SCALES</h1>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <h2 class="short-hr-left">TEAM UP AND FIGHT DRAGONS</h2>
+                                <p>Integer eget diam felis. Quisque et aliquet lectus, et lacinia turpis. Praesent eget pretium orci. Sed vestibulum rutrum volutpat. Curabitur feugiat arcu odio, quis convallis eros laoreet ac.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">MAKE FRIENDS</h2>
+                                <p>Suspendisse ultricies, dui vitae convallis blandit, ipsum sem mattis diam, in egestas arcu lacus sed lectus. Donec at interdum tellus. Quisque pellentesque a felis et rutrum. Donec condimentum magna sit amet viverra convallis. Fusce accumsan efficitur orci a commodo.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">TRAIN YOUR DRAGON</h2>
+                                <p>Mauris at sapien nibh. Integer id tellus vitae ante cursus pharetra. Vestibulum ultrices eleifend enim, quis maximus nibh dapibus in. Phasellus lacinia nec leo at semper. Duis nisl odio, lacinia quis dui at, pretium tincidunt metus. Maecenas condimentum purus sit amet neque maximus tempor. Proin eros massa, ullamcorper eget rutrum eu, feugiat id purus.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="button secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row game-card">
+                <div class="col-lg-12 col-xl-5 game-card-left">
+                    <a href="#" class="js-video-button" data-video-id='DPBW_MFqeRs' data-channel="youtube"> <!-- Video link goes here -->
+                        <div class="overlay">
+                            <i class="fa fa-play fa-3x"></i>
+                        </div>
+                        <img src="{{asset('frontend/images/placeholder.jpg')}}" data-src="{{asset('frontend/images/game.jpg')}}" class="img-fluid b-lazy" alt="video thumbnail"> <!-- Video Thumbnail Img -->
+                    </a>
+                </div>
+                <div class="col-lg-12 col-xl-7 game-card-right">
+                    <h2 class="short-hr-left">Pet Rock</h2>
+                    <p class="game-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis rhoncus nibh. Phasellus dignissim luctus consectetur. Fusce viverra est non purus ultrices, vel molestie massa tincidunt. <span class="expand colored strong" data-toggle="modal" data-target="#game1">Read More</span></p>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade game-modal" id="game1" tabindex="-1" role="dialog" aria-labelledby="scales" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title" id="scales">SWORDS &amp; SCALES</h1>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <h2 class="short-hr-left">TEAM UP AND FIGHT DRAGONS</h2>
+                                <p>Integer eget diam felis. Quisque et aliquet lectus, et lacinia turpis. Praesent eget pretium orci. Sed vestibulum rutrum volutpat. Curabitur feugiat arcu odio, quis convallis eros laoreet ac.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">MAKE FRIENDS</h2>
+                                <p>Suspendisse ultricies, dui vitae convallis blandit, ipsum sem mattis diam, in egestas arcu lacus sed lectus. Donec at interdum tellus. Quisque pellentesque a felis et rutrum. Donec condimentum magna sit amet viverra convallis. Fusce accumsan efficitur orci a commodo.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">TRAIN YOUR DRAGON</h2>
+                                <p>Mauris at sapien nibh. Integer id tellus vitae ante cursus pharetra. Vestibulum ultrices eleifend enim, quis maximus nibh dapibus in. Phasellus lacinia nec leo at semper. Duis nisl odio, lacinia quis dui at, pretium tincidunt metus. Maecenas condimentum purus sit amet neque maximus tempor. Proin eros massa, ullamcorper eget rutrum eu, feugiat id purus.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="button secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row game-card">
+                <div class="col-lg-12 col-xl-5 game-card-left">
+                    <a href="#" class="js-video-button" data-video-id='DPBW_MFqeRs' data-channel="youtube"> <!-- Video link goes here -->
+                        <div class="overlay">
+                            <i class="fa fa-play fa-3x"></i>
+                        </div>
+                        <img src="{{asset('frontend/images/placeholder.jpg')}}" data-src="{{asset('frontend/images/game.jpg')}}" class="img-fluid b-lazy" alt="video thumbnail"> <!-- Video Thumbnail Img -->
+                    </a>
+                </div>
+                <div class="col-lg-12 col-xl-7 game-card-right">
+                    <h2 class="short-hr-left">Popeye</h2>
+                    <p class="game-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis rhoncus nibh. Phasellus dignissim luctus consectetur. Fusce viverra est non purus ultrices, vel molestie massa tincidunt. <span class="expand colored strong" data-toggle="modal" data-target="#game1">Read More</span></p>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade game-modal" id="game1" tabindex="-1" role="dialog" aria-labelledby="scales" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title" id="scales">SWORDS &amp; SCALES</h1>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <h2 class="short-hr-left">TEAM UP AND FIGHT DRAGONS</h2>
+                                <p>Integer eget diam felis. Quisque et aliquet lectus, et lacinia turpis. Praesent eget pretium orci. Sed vestibulum rutrum volutpat. Curabitur feugiat arcu odio, quis convallis eros laoreet ac.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">MAKE FRIENDS</h2>
+                                <p>Suspendisse ultricies, dui vitae convallis blandit, ipsum sem mattis diam, in egestas arcu lacus sed lectus. Donec at interdum tellus. Quisque pellentesque a felis et rutrum. Donec condimentum magna sit amet viverra convallis. Fusce accumsan efficitur orci a commodo.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">TRAIN YOUR DRAGON</h2>
+                                <p>Mauris at sapien nibh. Integer id tellus vitae ante cursus pharetra. Vestibulum ultrices eleifend enim, quis maximus nibh dapibus in. Phasellus lacinia nec leo at semper. Duis nisl odio, lacinia quis dui at, pretium tincidunt metus. Maecenas condimentum purus sit amet neque maximus tempor. Proin eros massa, ullamcorper eget rutrum eu, feugiat id purus.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="button secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row game-card">
+                <div class="col-lg-12 col-xl-5 game-card-left">
+                    <a href="#" class="js-video-button" data-video-id='DPBW_MFqeRs' data-channel="youtube"> <!-- Video link goes here -->
+                        <div class="overlay">
+                            <i class="fa fa-play fa-3x"></i>
+                        </div>
+                        <img src="{{asset('frontend/images/placeholder.jpg')}}" data-src="{{asset('frontend/images/game.jpg')}}" class="img-fluid b-lazy" alt="video thumbnail"> <!-- Video Thumbnail Img -->
+                    </a>
+                </div>
+                <div class="col-lg-12 col-xl-7 game-card-right">
+                    <h2 class="short-hr-left">Bullseye</h2>
+                    <p class="game-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis rhoncus nibh. Phasellus dignissim luctus consectetur. Fusce viverra est non purus ultrices, vel molestie massa tincidunt. <span class="expand colored strong" data-toggle="modal" data-target="#game1">Read More</span></p>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade game-modal" id="game1" tabindex="-1" role="dialog" aria-labelledby="scales" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title" id="scales">SWORDS &amp; SCALES</h1>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <h2 class="short-hr-left">TEAM UP AND FIGHT DRAGONS</h2>
+                                <p>Integer eget diam felis. Quisque et aliquet lectus, et lacinia turpis. Praesent eget pretium orci. Sed vestibulum rutrum volutpat. Curabitur feugiat arcu odio, quis convallis eros laoreet ac.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">MAKE FRIENDS</h2>
+                                <p>Suspendisse ultricies, dui vitae convallis blandit, ipsum sem mattis diam, in egestas arcu lacus sed lectus. Donec at interdum tellus. Quisque pellentesque a felis et rutrum. Donec condimentum magna sit amet viverra convallis. Fusce accumsan efficitur orci a commodo.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">TRAIN YOUR DRAGON</h2>
+                                <p>Mauris at sapien nibh. Integer id tellus vitae ante cursus pharetra. Vestibulum ultrices eleifend enim, quis maximus nibh dapibus in. Phasellus lacinia nec leo at semper. Duis nisl odio, lacinia quis dui at, pretium tincidunt metus. Maecenas condimentum purus sit amet neque maximus tempor. Proin eros massa, ullamcorper eget rutrum eu, feugiat id purus.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="button secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row game-card">
+                <div class="col-lg-12 col-xl-5 game-card-left">
+                    <a href="#" class="js-video-button" data-video-id='DPBW_MFqeRs' data-channel="youtube"> <!-- Video link goes here -->
+                        <div class="overlay">
+                            <i class="fa fa-play fa-3x"></i>
+                        </div>
+                        <img src="{{asset('frontend/images/placeholder.jpg')}}" data-src="{{asset('frontend/images/game.jpg')}}" class="img-fluid b-lazy" alt="video thumbnail"> <!-- Video Thumbnail Img -->
+                    </a>
+                </div>
+                <div class="col-lg-12 col-xl-7 game-card-right">
+                    <h2 class="short-hr-left">Rainbocorns</h2>
+                    <p class="game-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis rhoncus nibh. Phasellus dignissim luctus consectetur. Fusce viverra est non purus ultrices, vel molestie massa tincidunt. <span class="expand colored strong" data-toggle="modal" data-target="#game1">Read More</span></p>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade game-modal" id="game1" tabindex="-1" role="dialog" aria-labelledby="scales" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title" id="scales">SWORDS &amp; SCALES</h1>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <h2 class="short-hr-left">TEAM UP AND FIGHT DRAGONS</h2>
+                                <p>Integer eget diam felis. Quisque et aliquet lectus, et lacinia turpis. Praesent eget pretium orci. Sed vestibulum rutrum volutpat. Curabitur feugiat arcu odio, quis convallis eros laoreet ac.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">MAKE FRIENDS</h2>
+                                <p>Suspendisse ultricies, dui vitae convallis blandit, ipsum sem mattis diam, in egestas arcu lacus sed lectus. Donec at interdum tellus. Quisque pellentesque a felis et rutrum. Donec condimentum magna sit amet viverra convallis. Fusce accumsan efficitur orci a commodo.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">TRAIN YOUR DRAGON</h2>
+                                <p>Mauris at sapien nibh. Integer id tellus vitae ante cursus pharetra. Vestibulum ultrices eleifend enim, quis maximus nibh dapibus in. Phasellus lacinia nec leo at semper. Duis nisl odio, lacinia quis dui at, pretium tincidunt metus. Maecenas condimentum purus sit amet neque maximus tempor. Proin eros massa, ullamcorper eget rutrum eu, feugiat id purus.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="button secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row game-card">
+                <div class="col-lg-12 col-xl-5 game-card-left">
+                    <a href="#" class="js-video-button" data-video-id='DPBW_MFqeRs' data-channel="youtube"> <!-- Video link goes here -->
+                        <div class="overlay">
+                            <i class="fa fa-play fa-3x"></i>
+                        </div>
+                        <img src="{{asset('frontend/images/placeholder.jpg')}}" data-src="{{asset('frontend/images/game.jpg')}}" class="img-fluid b-lazy" alt="video thumbnail"> <!-- Video Thumbnail Img -->
+                    </a>
+                </div>
+                <div class="col-lg-12 col-xl-7 game-card-right">
+                    <h2 class="short-hr-left">Snakes & Ladders</h2>
+                    <p class="game-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis rhoncus nibh. Phasellus dignissim luctus consectetur. Fusce viverra est non purus ultrices, vel molestie massa tincidunt. <span class="expand colored strong" data-toggle="modal" data-target="#game1">Read More</span></p>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade game-modal" id="game1" tabindex="-1" role="dialog" aria-labelledby="scales" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title" id="scales">SWORDS &amp; SCALES</h1>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <h2 class="short-hr-left">TEAM UP AND FIGHT DRAGONS</h2>
+                                <p>Integer eget diam felis. Quisque et aliquet lectus, et lacinia turpis. Praesent eget pretium orci. Sed vestibulum rutrum volutpat. Curabitur feugiat arcu odio, quis convallis eros laoreet ac.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">MAKE FRIENDS</h2>
+                                <p>Suspendisse ultricies, dui vitae convallis blandit, ipsum sem mattis diam, in egestas arcu lacus sed lectus. Donec at interdum tellus. Quisque pellentesque a felis et rutrum. Donec condimentum magna sit amet viverra convallis. Fusce accumsan efficitur orci a commodo.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">TRAIN YOUR DRAGON</h2>
+                                <p>Mauris at sapien nibh. Integer id tellus vitae ante cursus pharetra. Vestibulum ultrices eleifend enim, quis maximus nibh dapibus in. Phasellus lacinia nec leo at semper. Duis nisl odio, lacinia quis dui at, pretium tincidunt metus. Maecenas condimentum purus sit amet neque maximus tempor. Proin eros massa, ullamcorper eget rutrum eu, feugiat id purus.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="button secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row game-card">
+                <div class="col-lg-12 col-xl-5 game-card-left">
+                    <a href="#" class="js-video-button" data-video-id='DPBW_MFqeRs' data-channel="youtube"> <!-- Video link goes here -->
+                        <div class="overlay">
+                            <i class="fa fa-play fa-3x"></i>
+                        </div>
+                        <img src="{{asset('frontend/images/placeholder.jpg')}}" data-src="{{asset('frontend/images/game.jpg')}}" class="img-fluid b-lazy" alt="video thumbnail"> <!-- Video Thumbnail Img -->
+                    </a>
+                </div>
+                <div class="col-lg-12 col-xl-7 game-card-right">
+                    <h2 class="short-hr-left">Darts</h2>
+                    <p class="game-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis rhoncus nibh. Phasellus dignissim luctus consectetur. Fusce viverra est non purus ultrices, vel molestie massa tincidunt. <span class="expand colored strong" data-toggle="modal" data-target="#game1">Read More</span></p>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade game-modal" id="game1" tabindex="-1" role="dialog" aria-labelledby="scales" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title" id="scales">SWORDS &amp; SCALES</h1>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <h2 class="short-hr-left">TEAM UP AND FIGHT DRAGONS</h2>
+                                <p>Integer eget diam felis. Quisque et aliquet lectus, et lacinia turpis. Praesent eget pretium orci. Sed vestibulum rutrum volutpat. Curabitur feugiat arcu odio, quis convallis eros laoreet ac.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">MAKE FRIENDS</h2>
+                                <p>Suspendisse ultricies, dui vitae convallis blandit, ipsum sem mattis diam, in egestas arcu lacus sed lectus. Donec at interdum tellus. Quisque pellentesque a felis et rutrum. Donec condimentum magna sit amet viverra convallis. Fusce accumsan efficitur orci a commodo.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">TRAIN YOUR DRAGON</h2>
+                                <p>Mauris at sapien nibh. Integer id tellus vitae ante cursus pharetra. Vestibulum ultrices eleifend enim, quis maximus nibh dapibus in. Phasellus lacinia nec leo at semper. Duis nisl odio, lacinia quis dui at, pretium tincidunt metus. Maecenas condimentum purus sit amet neque maximus tempor. Proin eros massa, ullamcorper eget rutrum eu, feugiat id purus.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="button secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row game-card">
+                <div class="col-lg-12 col-xl-5 game-card-left">
+                    <a href="#" class="js-video-button" data-video-id='DPBW_MFqeRs' data-channel="youtube"> <!-- Video link goes here -->
+                        <div class="overlay">
+                            <i class="fa fa-play fa-3x"></i>
+                        </div>
+                        <img src="{{asset('frontend/images/placeholder.jpg')}}" data-src="{{asset('frontend/images/game.jpg')}}" class="img-fluid b-lazy" alt="video thumbnail"> <!-- Video Thumbnail Img -->
+                    </a>
+                </div>
+                <div class="col-lg-12 col-xl-7 game-card-right">
+                    <h2 class="short-hr-left">Battleground</h2>
+                    <p class="game-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis rhoncus nibh. Phasellus dignissim luctus consectetur. Fusce viverra est non purus ultrices, vel molestie massa tincidunt. <span class="expand colored strong" data-toggle="modal" data-target="#game1">Read More</span></p>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade game-modal" id="game1" tabindex="-1" role="dialog" aria-labelledby="scales" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title" id="scales">SWORDS &amp; SCALES</h1>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <h2 class="short-hr-left">TEAM UP AND FIGHT DRAGONS</h2>
+                                <p>Integer eget diam felis. Quisque et aliquet lectus, et lacinia turpis. Praesent eget pretium orci. Sed vestibulum rutrum volutpat. Curabitur feugiat arcu odio, quis convallis eros laoreet ac.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">MAKE FRIENDS</h2>
+                                <p>Suspendisse ultricies, dui vitae convallis blandit, ipsum sem mattis diam, in egestas arcu lacus sed lectus. Donec at interdum tellus. Quisque pellentesque a felis et rutrum. Donec condimentum magna sit amet viverra convallis. Fusce accumsan efficitur orci a commodo.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">TRAIN YOUR DRAGON</h2>
+                                <p>Mauris at sapien nibh. Integer id tellus vitae ante cursus pharetra. Vestibulum ultrices eleifend enim, quis maximus nibh dapibus in. Phasellus lacinia nec leo at semper. Duis nisl odio, lacinia quis dui at, pretium tincidunt metus. Maecenas condimentum purus sit amet neque maximus tempor. Proin eros massa, ullamcorper eget rutrum eu, feugiat id purus.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="button secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="row game-card">
+                <div class="col-lg-12 col-xl-5 game-card-left">
+                    <a href="#" class="js-video-button" data-video-id='DPBW_MFqeRs' data-channel="youtube"> <!-- Video link goes here -->
+                        <div class="overlay">
+                            <i class="fa fa-play fa-3x"></i>
+                        </div>
+                        <img src="{{asset('frontend/images/placeholder.jpg')}}" data-src="{{asset('frontend/images/game.jpg')}}" class="img-fluid b-lazy" alt="video thumbnail"> <!-- Video Thumbnail Img -->
+                    </a>
+                </div>
+                <div class="col-lg-12 col-xl-7 game-card-right">
+                    <h2 class="short-hr-left">Bowling</h2>
+                    <p class="game-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis rhoncus nibh. Phasellus dignissim luctus consectetur. Fusce viverra est non purus ultrices, vel molestie massa tincidunt. <span class="expand colored strong" data-toggle="modal" data-target="#game1">Read More</span></p>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade game-modal" id="game1" tabindex="-1" role="dialog" aria-labelledby="scales" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title" id="scales">SWORDS &amp; SCALES</h1>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <h2 class="short-hr-left">TEAM UP AND FIGHT DRAGONS</h2>
+                                <p>Integer eget diam felis. Quisque et aliquet lectus, et lacinia turpis. Praesent eget pretium orci. Sed vestibulum rutrum volutpat. Curabitur feugiat arcu odio, quis convallis eros laoreet ac.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">MAKE FRIENDS</h2>
+                                <p>Suspendisse ultricies, dui vitae convallis blandit, ipsum sem mattis diam, in egestas arcu lacus sed lectus. Donec at interdum tellus. Quisque pellentesque a felis et rutrum. Donec condimentum magna sit amet viverra convallis. Fusce accumsan efficitur orci a commodo.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">TRAIN YOUR DRAGON</h2>
+                                <p>Mauris at sapien nibh. Integer id tellus vitae ante cursus pharetra. Vestibulum ultrices eleifend enim, quis maximus nibh dapibus in. Phasellus lacinia nec leo at semper. Duis nisl odio, lacinia quis dui at, pretium tincidunt metus. Maecenas condimentum purus sit amet neque maximus tempor. Proin eros massa, ullamcorper eget rutrum eu, feugiat id purus.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="button secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row game-card">
+                <div class="col-lg-12 col-xl-5 game-card-left">
+                    <a href="#" class="js-video-button" data-video-id='DPBW_MFqeRs' data-channel="youtube"> <!-- Video link goes here -->
+                        <div class="overlay">
+                            <i class="fa fa-play fa-3x"></i>
+                        </div>
+                        <img src="{{asset('frontend/images/placeholder.jpg')}}" data-src="{{asset('frontend/images/game.jpg')}}" class="img-fluid b-lazy" alt="video thumbnail"> <!-- Video Thumbnail Img -->
+                    </a>
+                </div>
+                <div class="col-lg-12 col-xl-7 game-card-right">
+                    <h2 class="short-hr-left">Tennis Go</h2>
+                    <p class="game-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis rhoncus nibh. Phasellus dignissim luctus consectetur. Fusce viverra est non purus ultrices, vel molestie massa tincidunt. <span class="expand colored strong" data-toggle="modal" data-target="#game1">Read More</span></p>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade game-modal" id="game1" tabindex="-1" role="dialog" aria-labelledby="scales" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title" id="scales">SWORDS &amp; SCALES</h1>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <h2 class="short-hr-left">TEAM UP AND FIGHT DRAGONS</h2>
+                                <p>Integer eget diam felis. Quisque et aliquet lectus, et lacinia turpis. Praesent eget pretium orci. Sed vestibulum rutrum volutpat. Curabitur feugiat arcu odio, quis convallis eros laoreet ac.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">MAKE FRIENDS</h2>
+                                <p>Suspendisse ultricies, dui vitae convallis blandit, ipsum sem mattis diam, in egestas arcu lacus sed lectus. Donec at interdum tellus. Quisque pellentesque a felis et rutrum. Donec condimentum magna sit amet viverra convallis. Fusce accumsan efficitur orci a commodo.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">TRAIN YOUR DRAGON</h2>
+                                <p>Mauris at sapien nibh. Integer id tellus vitae ante cursus pharetra. Vestibulum ultrices eleifend enim, quis maximus nibh dapibus in. Phasellus lacinia nec leo at semper. Duis nisl odio, lacinia quis dui at, pretium tincidunt metus. Maecenas condimentum purus sit amet neque maximus tempor. Proin eros massa, ullamcorper eget rutrum eu, feugiat id purus.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="button secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row game-card">
+                <div class="col-lg-12 col-xl-5 game-card-left">
+                    <a href="#" class="js-video-button" data-video-id='DPBW_MFqeRs' data-channel="youtube"> <!-- Video link goes here -->
+                        <div class="overlay">
+                            <i class="fa fa-play fa-3x"></i>
+                        </div>
+                        <img src="{{asset('frontend/images/placeholder.jpg')}}" data-src="{{asset('frontend/images/game.jpg')}}" class="img-fluid b-lazy" alt="video thumbnail"> <!-- Video Thumbnail Img -->
+                    </a>
+                </div>
+                <div class="col-lg-12 col-xl-7 game-card-right">
+                    <h2 class="short-hr-left">Hidden</h2>
+                    <p class="game-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis rhoncus nibh. Phasellus dignissim luctus consectetur. Fusce viverra est non purus ultrices, vel molestie massa tincidunt. <span class="expand colored strong" data-toggle="modal" data-target="#game1">Read More</span></p>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade game-modal" id="game1" tabindex="-1" role="dialog" aria-labelledby="scales" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title" id="scales">SWORDS &amp; SCALES</h1>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <h2 class="short-hr-left">TEAM UP AND FIGHT DRAGONS</h2>
+                                <p>Integer eget diam felis. Quisque et aliquet lectus, et lacinia turpis. Praesent eget pretium orci. Sed vestibulum rutrum volutpat. Curabitur feugiat arcu odio, quis convallis eros laoreet ac.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">MAKE FRIENDS</h2>
+                                <p>Suspendisse ultricies, dui vitae convallis blandit, ipsum sem mattis diam, in egestas arcu lacus sed lectus. Donec at interdum tellus. Quisque pellentesque a felis et rutrum. Donec condimentum magna sit amet viverra convallis. Fusce accumsan efficitur orci a commodo.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">TRAIN YOUR DRAGON</h2>
+                                <p>Mauris at sapien nibh. Integer id tellus vitae ante cursus pharetra. Vestibulum ultrices eleifend enim, quis maximus nibh dapibus in. Phasellus lacinia nec leo at semper. Duis nisl odio, lacinia quis dui at, pretium tincidunt metus. Maecenas condimentum purus sit amet neque maximus tempor. Proin eros massa, ullamcorper eget rutrum eu, feugiat id purus.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="button secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row game-card">
+                <div class="col-lg-12 col-xl-5 game-card-left">
+                    <a href="#" class="js-video-button" data-video-id='DPBW_MFqeRs' data-channel="youtube"> <!-- Video link goes here -->
+                        <div class="overlay">
+                            <i class="fa fa-play fa-3x"></i>
+                        </div>
+                        <img src="{{asset('frontend/images/placeholder.jpg')}}" data-src="{{asset('frontend/images/game.jpg')}}" class="img-fluid b-lazy" alt="video thumbnail"> <!-- Video Thumbnail Img -->
+                    </a>
+                </div>
+                <div class="col-lg-12 col-xl-7 game-card-right">
+                    <h2 class="short-hr-left">Neverlast</h2>
+                    <p class="game-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis rhoncus nibh. Phasellus dignissim luctus consectetur. Fusce viverra est non purus ultrices, vel molestie massa tincidunt. <span class="expand colored strong" data-toggle="modal" data-target="#game1">Read More</span></p>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade game-modal" id="game1" tabindex="-1" role="dialog" aria-labelledby="scales" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title" id="scales">SWORDS &amp; SCALES</h1>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <h2 class="short-hr-left">TEAM UP AND FIGHT DRAGONS</h2>
+                                <p>Integer eget diam felis. Quisque et aliquet lectus, et lacinia turpis. Praesent eget pretium orci. Sed vestibulum rutrum volutpat. Curabitur feugiat arcu odio, quis convallis eros laoreet ac.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">MAKE FRIENDS</h2>
+                                <p>Suspendisse ultricies, dui vitae convallis blandit, ipsum sem mattis diam, in egestas arcu lacus sed lectus. Donec at interdum tellus. Quisque pellentesque a felis et rutrum. Donec condimentum magna sit amet viverra convallis. Fusce accumsan efficitur orci a commodo.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">TRAIN YOUR DRAGON</h2>
+                                <p>Mauris at sapien nibh. Integer id tellus vitae ante cursus pharetra. Vestibulum ultrices eleifend enim, quis maximus nibh dapibus in. Phasellus lacinia nec leo at semper. Duis nisl odio, lacinia quis dui at, pretium tincidunt metus. Maecenas condimentum purus sit amet neque maximus tempor. Proin eros massa, ullamcorper eget rutrum eu, feugiat id purus.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="button secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row game-card">
+                <div class="col-lg-12 col-xl-5 game-card-left">
+                    <a href="#" class="js-video-button" data-video-id='DPBW_MFqeRs' data-channel="youtube"> <!-- Video link goes here -->
+                        <div class="overlay">
+                            <i class="fa fa-play fa-3x"></i>
+                        </div>
+                        <img src="{{asset('frontend/images/placeholder.jpg')}}" data-src="{{asset('frontend/images/game.jpg')}}" class="img-fluid b-lazy" alt="video thumbnail"> <!-- Video Thumbnail Img -->
+                    </a>
+                </div>
+                <div class="col-lg-12 col-xl-7 game-card-right">
+                    <h2 class="short-hr-left">Party Trivia</h2>
+                    <p class="game-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis rhoncus nibh. Phasellus dignissim luctus consectetur. Fusce viverra est non purus ultrices, vel molestie massa tincidunt. <span class="expand colored strong" data-toggle="modal" data-target="#game1">Read More</span></p>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade game-modal" id="game1" tabindex="-1" role="dialog" aria-labelledby="scales" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title" id="scales">SWORDS &amp; SCALES</h1>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <h2 class="short-hr-left">TEAM UP AND FIGHT DRAGONS</h2>
+                                <p>Integer eget diam felis. Quisque et aliquet lectus, et lacinia turpis. Praesent eget pretium orci. Sed vestibulum rutrum volutpat. Curabitur feugiat arcu odio, quis convallis eros laoreet ac.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">MAKE FRIENDS</h2>
+                                <p>Suspendisse ultricies, dui vitae convallis blandit, ipsum sem mattis diam, in egestas arcu lacus sed lectus. Donec at interdum tellus. Quisque pellentesque a felis et rutrum. Donec condimentum magna sit amet viverra convallis. Fusce accumsan efficitur orci a commodo.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">TRAIN YOUR DRAGON</h2>
+                                <p>Mauris at sapien nibh. Integer id tellus vitae ante cursus pharetra. Vestibulum ultrices eleifend enim, quis maximus nibh dapibus in. Phasellus lacinia nec leo at semper. Duis nisl odio, lacinia quis dui at, pretium tincidunt metus. Maecenas condimentum purus sit amet neque maximus tempor. Proin eros massa, ullamcorper eget rutrum eu, feugiat id purus.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="button secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row game-card">
+                <div class="col-lg-12 col-xl-5 game-card-left">
+                    <a href="#" class="js-video-button" data-video-id='DPBW_MFqeRs' data-channel="youtube"> <!-- Video link goes here -->
+                        <div class="overlay">
+                            <i class="fa fa-play fa-3x"></i>
+                        </div>
+                        <img src="{{asset('frontend/images/placeholder.jpg')}}" data-src="{{asset('frontend/images/game.jpg')}}" class="img-fluid b-lazy" alt="video thumbnail"> <!-- Video Thumbnail Img -->
+                    </a>
+                </div>
+                <div class="col-lg-12 col-xl-7 game-card-right">
+                    <h2 class="short-hr-left">Robox</h2>
+                    <p class="game-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis rhoncus nibh. Phasellus dignissim luctus consectetur. Fusce viverra est non purus ultrices, vel molestie massa tincidunt. <span class="expand colored strong" data-toggle="modal" data-target="#game1">Read More</span></p>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade game-modal" id="game1" tabindex="-1" role="dialog" aria-labelledby="scales" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title" id="scales">SWORDS &amp; SCALES</h1>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <h2 class="short-hr-left">TEAM UP AND FIGHT DRAGONS</h2>
+                                <p>Integer eget diam felis. Quisque et aliquet lectus, et lacinia turpis. Praesent eget pretium orci. Sed vestibulum rutrum volutpat. Curabitur feugiat arcu odio, quis convallis eros laoreet ac.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">MAKE FRIENDS</h2>
+                                <p>Suspendisse ultricies, dui vitae convallis blandit, ipsum sem mattis diam, in egestas arcu lacus sed lectus. Donec at interdum tellus. Quisque pellentesque a felis et rutrum. Donec condimentum magna sit amet viverra convallis. Fusce accumsan efficitur orci a commodo.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">TRAIN YOUR DRAGON</h2>
+                                <p>Mauris at sapien nibh. Integer id tellus vitae ante cursus pharetra. Vestibulum ultrices eleifend enim, quis maximus nibh dapibus in. Phasellus lacinia nec leo at semper. Duis nisl odio, lacinia quis dui at, pretium tincidunt metus. Maecenas condimentum purus sit amet neque maximus tempor. Proin eros massa, ullamcorper eget rutrum eu, feugiat id purus.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="button secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="row game-card">
+                <div class="col-lg-12 col-xl-5 game-card-left">
+                    <a href="#" class="js-video-button" data-video-id='DPBW_MFqeRs' data-channel="youtube"> <!-- Video link goes here -->
+                        <div class="overlay">
+                            <i class="fa fa-play fa-3x"></i>
+                        </div>
+                        <img src="{{asset('frontend/images/placeholder.jpg')}}" data-src="{{asset('frontend/images/game.jpg')}}" class="img-fluid b-lazy" alt="video thumbnail"> <!-- Video Thumbnail Img -->
+                    </a>
+                </div>
+                <div class="col-lg-12 col-xl-7 game-card-right">
+                    <h2 class="short-hr-left">Slots</h2>
+                    <p class="game-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis rhoncus nibh. Phasellus dignissim luctus consectetur. Fusce viverra est non purus ultrices, vel molestie massa tincidunt. <span class="expand colored strong" data-toggle="modal" data-target="#game1">Read More</span></p>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade game-modal" id="game1" tabindex="-1" role="dialog" aria-labelledby="scales" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title" id="scales">SWORDS &amp; SCALES</h1>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <h2 class="short-hr-left">TEAM UP AND FIGHT DRAGONS</h2>
+                                <p>Integer eget diam felis. Quisque et aliquet lectus, et lacinia turpis. Praesent eget pretium orci. Sed vestibulum rutrum volutpat. Curabitur feugiat arcu odio, quis convallis eros laoreet ac.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">MAKE FRIENDS</h2>
+                                <p>Suspendisse ultricies, dui vitae convallis blandit, ipsum sem mattis diam, in egestas arcu lacus sed lectus. Donec at interdum tellus. Quisque pellentesque a felis et rutrum. Donec condimentum magna sit amet viverra convallis. Fusce accumsan efficitur orci a commodo.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">TRAIN YOUR DRAGON</h2>
+                                <p>Mauris at sapien nibh. Integer id tellus vitae ante cursus pharetra. Vestibulum ultrices eleifend enim, quis maximus nibh dapibus in. Phasellus lacinia nec leo at semper. Duis nisl odio, lacinia quis dui at, pretium tincidunt metus. Maecenas condimentum purus sit amet neque maximus tempor. Proin eros massa, ullamcorper eget rutrum eu, feugiat id purus.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="button secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row game-card">
+                <div class="col-lg-12 col-xl-5 game-card-left">
+                    <a href="#" class="js-video-button" data-video-id='DPBW_MFqeRs' data-channel="youtube"> <!-- Video link goes here -->
+                        <div class="overlay">
+                            <i class="fa fa-play fa-3x"></i>
+                        </div>
+                        <img src="{{asset('frontend/images/placeholder.jpg')}}" data-src="{{asset('frontend/images/game.jpg')}}" class="img-fluid b-lazy" alt="video thumbnail"> <!-- Video Thumbnail Img -->
+                    </a>
+                </div>
+                <div class="col-lg-12 col-xl-7 game-card-right">
+                    <h2 class="short-hr-left">Monkey Business</h2>
+                    <p class="game-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis rhoncus nibh. Phasellus dignissim luctus consectetur. Fusce viverra est non purus ultrices, vel molestie massa tincidunt. <span class="expand colored strong" data-toggle="modal" data-target="#game1">Read More</span></p>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade game-modal" id="game1" tabindex="-1" role="dialog" aria-labelledby="scales" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title" id="scales">SWORDS &amp; SCALES</h1>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <h2 class="short-hr-left">TEAM UP AND FIGHT DRAGONS</h2>
+                                <p>Integer eget diam felis. Quisque et aliquet lectus, et lacinia turpis. Praesent eget pretium orci. Sed vestibulum rutrum volutpat. Curabitur feugiat arcu odio, quis convallis eros laoreet ac.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">MAKE FRIENDS</h2>
+                                <p>Suspendisse ultricies, dui vitae convallis blandit, ipsum sem mattis diam, in egestas arcu lacus sed lectus. Donec at interdum tellus. Quisque pellentesque a felis et rutrum. Donec condimentum magna sit amet viverra convallis. Fusce accumsan efficitur orci a commodo.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">TRAIN YOUR DRAGON</h2>
+                                <p>Mauris at sapien nibh. Integer id tellus vitae ante cursus pharetra. Vestibulum ultrices eleifend enim, quis maximus nibh dapibus in. Phasellus lacinia nec leo at semper. Duis nisl odio, lacinia quis dui at, pretium tincidunt metus. Maecenas condimentum purus sit amet neque maximus tempor. Proin eros massa, ullamcorper eget rutrum eu, feugiat id purus.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="button secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row game-card">
+                <div class="col-lg-12 col-xl-5 game-card-left">
+                    <a href="#" class="js-video-button" data-video-id='DPBW_MFqeRs' data-channel="youtube"> <!-- Video link goes here -->
+                        <div class="overlay">
+                            <i class="fa fa-play fa-3x"></i>
+                        </div>
+                        <img src="{{asset('frontend/images/placeholder.jpg')}}" data-src="{{asset('frontend/images/game.jpg')}}" class="img-fluid b-lazy" alt="video thumbnail"> <!-- Video Thumbnail Img -->
+                    </a>
+                </div>
+                <div class="col-lg-12 col-xl-7 game-card-right">
+                    <h2 class="short-hr-left">Boxer</h2>
+                    <p class="game-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis rhoncus nibh. Phasellus dignissim luctus consectetur. Fusce viverra est non purus ultrices, vel molestie massa tincidunt. <span class="expand colored strong" data-toggle="modal" data-target="#game1">Read More</span></p>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade game-modal" id="game1" tabindex="-1" role="dialog" aria-labelledby="scales" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title" id="scales">SWORDS &amp; SCALES</h1>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <h2 class="short-hr-left">TEAM UP AND FIGHT DRAGONS</h2>
+                                <p>Integer eget diam felis. Quisque et aliquet lectus, et lacinia turpis. Praesent eget pretium orci. Sed vestibulum rutrum volutpat. Curabitur feugiat arcu odio, quis convallis eros laoreet ac.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">MAKE FRIENDS</h2>
+                                <p>Suspendisse ultricies, dui vitae convallis blandit, ipsum sem mattis diam, in egestas arcu lacus sed lectus. Donec at interdum tellus. Quisque pellentesque a felis et rutrum. Donec condimentum magna sit amet viverra convallis. Fusce accumsan efficitur orci a commodo.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">TRAIN YOUR DRAGON</h2>
+                                <p>Mauris at sapien nibh. Integer id tellus vitae ante cursus pharetra. Vestibulum ultrices eleifend enim, quis maximus nibh dapibus in. Phasellus lacinia nec leo at semper. Duis nisl odio, lacinia quis dui at, pretium tincidunt metus. Maecenas condimentum purus sit amet neque maximus tempor. Proin eros massa, ullamcorper eget rutrum eu, feugiat id purus.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="button secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row game-card">
+                <div class="col-lg-12 col-xl-5 game-card-left">
+                    <a href="#" class="js-video-button" data-video-id='DPBW_MFqeRs' data-channel="youtube"> <!-- Video link goes here -->
+                        <div class="overlay">
+                            <i class="fa fa-play fa-3x"></i>
+                        </div>
+                        <img src="{{asset('frontend/images/placeholder.jpg')}}" data-src="{{asset('frontend/images/game.jpg')}}" class="img-fluid b-lazy" alt="video thumbnail"> <!-- Video Thumbnail Img -->
+                    </a>
+                </div>
+                <div class="col-lg-12 col-xl-7 game-card-right">
+                    <h2 class="short-hr-left">Pool</h2>
+                    <p class="game-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis rhoncus nibh. Phasellus dignissim luctus consectetur. Fusce viverra est non purus ultrices, vel molestie massa tincidunt. <span class="expand colored strong" data-toggle="modal" data-target="#game1">Read More</span></p>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade game-modal" id="game1" tabindex="-1" role="dialog" aria-labelledby="scales" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title" id="scales">SWORDS &amp; SCALES</h1>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <h2 class="short-hr-left">TEAM UP AND FIGHT DRAGONS</h2>
+                                <p>Integer eget diam felis. Quisque et aliquet lectus, et lacinia turpis. Praesent eget pretium orci. Sed vestibulum rutrum volutpat. Curabitur feugiat arcu odio, quis convallis eros laoreet ac.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">MAKE FRIENDS</h2>
+                                <p>Suspendisse ultricies, dui vitae convallis blandit, ipsum sem mattis diam, in egestas arcu lacus sed lectus. Donec at interdum tellus. Quisque pellentesque a felis et rutrum. Donec condimentum magna sit amet viverra convallis. Fusce accumsan efficitur orci a commodo.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">TRAIN YOUR DRAGON</h2>
+                                <p>Mauris at sapien nibh. Integer id tellus vitae ante cursus pharetra. Vestibulum ultrices eleifend enim, quis maximus nibh dapibus in. Phasellus lacinia nec leo at semper. Duis nisl odio, lacinia quis dui at, pretium tincidunt metus. Maecenas condimentum purus sit amet neque maximus tempor. Proin eros massa, ullamcorper eget rutrum eu, feugiat id purus.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="button secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row game-card">
+                <div class="col-lg-12 col-xl-5 game-card-left">
+                    <a href="#" class="js-video-button" data-video-id='DPBW_MFqeRs' data-channel="youtube"> <!-- Video link goes here -->
+                        <div class="overlay">
+                            <i class="fa fa-play fa-3x"></i>
+                        </div>
+                        <img src="{{asset('frontend/images/placeholder.jpg')}}" data-src="{{asset('frontend/images/game.jpg')}}" class="img-fluid b-lazy" alt="video thumbnail"> <!-- Video Thumbnail Img -->
+                    </a>
+                </div>
+                <div class="col-lg-12 col-xl-7 game-card-right">
+                    <h2 class="short-hr-left">Basket Ball</h2>
+                    <p class="game-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis rhoncus nibh. Phasellus dignissim luctus consectetur. Fusce viverra est non purus ultrices, vel molestie massa tincidunt. <span class="expand colored strong" data-toggle="modal" data-target="#game1">Read More</span></p>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade game-modal" id="game1" tabindex="-1" role="dialog" aria-labelledby="scales" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title" id="scales">SWORDS &amp; SCALES</h1>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <h2 class="short-hr-left">TEAM UP AND FIGHT DRAGONS</h2>
+                                <p>Integer eget diam felis. Quisque et aliquet lectus, et lacinia turpis. Praesent eget pretium orci. Sed vestibulum rutrum volutpat. Curabitur feugiat arcu odio, quis convallis eros laoreet ac.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">MAKE FRIENDS</h2>
+                                <p>Suspendisse ultricies, dui vitae convallis blandit, ipsum sem mattis diam, in egestas arcu lacus sed lectus. Donec at interdum tellus. Quisque pellentesque a felis et rutrum. Donec condimentum magna sit amet viverra convallis. Fusce accumsan efficitur orci a commodo.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">TRAIN YOUR DRAGON</h2>
+                                <p>Mauris at sapien nibh. Integer id tellus vitae ante cursus pharetra. Vestibulum ultrices eleifend enim, quis maximus nibh dapibus in. Phasellus lacinia nec leo at semper. Duis nisl odio, lacinia quis dui at, pretium tincidunt metus. Maecenas condimentum purus sit amet neque maximus tempor. Proin eros massa, ullamcorper eget rutrum eu, feugiat id purus.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="button secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row game-card">
+                <div class="col-lg-12 col-xl-5 game-card-left">
+                    <a href="#" class="js-video-button" data-video-id='DPBW_MFqeRs' data-channel="youtube"> <!-- Video link goes here -->
+                        <div class="overlay">
+                            <i class="fa fa-play fa-3x"></i>
+                        </div>
+                        <img src="{{asset('frontend/images/placeholder.jpg')}}" data-src="{{asset('frontend/images/game.jpg')}}" class="img-fluid b-lazy" alt="video thumbnail"> <!-- Video Thumbnail Img -->
+                    </a>
+                </div>
+                <div class="col-lg-12 col-xl-7 game-card-right">
+                    <h2 class="short-hr-left">Air Hockey</h2>
+                    <p class="game-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis rhoncus nibh. Phasellus dignissim luctus consectetur. Fusce viverra est non purus ultrices, vel molestie massa tincidunt. <span class="expand colored strong" data-toggle="modal" data-target="#game1">Read More</span></p>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade game-modal" id="game1" tabindex="-1" role="dialog" aria-labelledby="scales" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title" id="scales">SWORDS &amp; SCALES</h1>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <h2 class="short-hr-left">TEAM UP AND FIGHT DRAGONS</h2>
+                                <p>Integer eget diam felis. Quisque et aliquet lectus, et lacinia turpis. Praesent eget pretium orci. Sed vestibulum rutrum volutpat. Curabitur feugiat arcu odio, quis convallis eros laoreet ac.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">MAKE FRIENDS</h2>
+                                <p>Suspendisse ultricies, dui vitae convallis blandit, ipsum sem mattis diam, in egestas arcu lacus sed lectus. Donec at interdum tellus. Quisque pellentesque a felis et rutrum. Donec condimentum magna sit amet viverra convallis. Fusce accumsan efficitur orci a commodo.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">TRAIN YOUR DRAGON</h2>
+                                <p>Mauris at sapien nibh. Integer id tellus vitae ante cursus pharetra. Vestibulum ultrices eleifend enim, quis maximus nibh dapibus in. Phasellus lacinia nec leo at semper. Duis nisl odio, lacinia quis dui at, pretium tincidunt metus. Maecenas condimentum purus sit amet neque maximus tempor. Proin eros massa, ullamcorper eget rutrum eu, feugiat id purus.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="button secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row game-card">
+                <div class="col-lg-12 col-xl-5 game-card-left">
+                    <a href="#" class="js-video-button" data-video-id='DPBW_MFqeRs' data-channel="youtube"> <!-- Video link goes here -->
+                        <div class="overlay">
+                            <i class="fa fa-play fa-3x"></i>
+                        </div>
+                        <img src="{{asset('frontend/images/placeholder.jpg')}}" data-src="{{asset('frontend/images/game.jpg')}}" class="img-fluid b-lazy" alt="video thumbnail"> <!-- Video Thumbnail Img -->
+                    </a>
+                </div>
+                <div class="col-lg-12 col-xl-7 game-card-right">
+                    <h2 class="short-hr-left">Teddy Gangs</h2>
+                    <p class="game-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis rhoncus nibh. Phasellus dignissim luctus consectetur. Fusce viverra est non purus ultrices, vel molestie massa tincidunt. <span class="expand colored strong" data-toggle="modal" data-target="#game1">Read More</span></p>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade game-modal" id="game1" tabindex="-1" role="dialog" aria-labelledby="scales" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title" id="scales">SWORDS &amp; SCALES</h1>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <h2 class="short-hr-left">TEAM UP AND FIGHT DRAGONS</h2>
+                                <p>Integer eget diam felis. Quisque et aliquet lectus, et lacinia turpis. Praesent eget pretium orci. Sed vestibulum rutrum volutpat. Curabitur feugiat arcu odio, quis convallis eros laoreet ac.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">MAKE FRIENDS</h2>
+                                <p>Suspendisse ultricies, dui vitae convallis blandit, ipsum sem mattis diam, in egestas arcu lacus sed lectus. Donec at interdum tellus. Quisque pellentesque a felis et rutrum. Donec condimentum magna sit amet viverra convallis. Fusce accumsan efficitur orci a commodo.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">TRAIN YOUR DRAGON</h2>
+                                <p>Mauris at sapien nibh. Integer id tellus vitae ante cursus pharetra. Vestibulum ultrices eleifend enim, quis maximus nibh dapibus in. Phasellus lacinia nec leo at semper. Duis nisl odio, lacinia quis dui at, pretium tincidunt metus. Maecenas condimentum purus sit amet neque maximus tempor. Proin eros massa, ullamcorper eget rutrum eu, feugiat id purus.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="button secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row game-card">
+                <div class="col-lg-12 col-xl-5 game-card-left">
+                    <a href="#" class="js-video-button" data-video-id='DPBW_MFqeRs' data-channel="youtube"> <!-- Video link goes here -->
+                        <div class="overlay">
+                            <i class="fa fa-play fa-3x"></i>
+                        </div>
+                        <img src="{{asset('frontend/images/placeholder.jpg')}}" data-src="{{asset('frontend/images/game.jpg')}}" class="img-fluid b-lazy" alt="video thumbnail"> <!-- Video Thumbnail Img -->
+                    </a>
+                </div>
+                <div class="col-lg-12 col-xl-7 game-card-right">
+                    <h2 class="short-hr-left">Car Mayhem</h2>
+                    <p class="game-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis rhoncus nibh. Phasellus dignissim luctus consectetur. Fusce viverra est non purus ultrices, vel molestie massa tincidunt. <span class="expand colored strong" data-toggle="modal" data-target="#game1">Read More</span></p>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade game-modal" id="game1" tabindex="-1" role="dialog" aria-labelledby="scales" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title" id="scales">SWORDS &amp; SCALES</h1>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <h2 class="short-hr-left">TEAM UP AND FIGHT DRAGONS</h2>
+                                <p>Integer eget diam felis. Quisque et aliquet lectus, et lacinia turpis. Praesent eget pretium orci. Sed vestibulum rutrum volutpat. Curabitur feugiat arcu odio, quis convallis eros laoreet ac.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">MAKE FRIENDS</h2>
+                                <p>Suspendisse ultricies, dui vitae convallis blandit, ipsum sem mattis diam, in egestas arcu lacus sed lectus. Donec at interdum tellus. Quisque pellentesque a felis et rutrum. Donec condimentum magna sit amet viverra convallis. Fusce accumsan efficitur orci a commodo.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">TRAIN YOUR DRAGON</h2>
+                                <p>Mauris at sapien nibh. Integer id tellus vitae ante cursus pharetra. Vestibulum ultrices eleifend enim, quis maximus nibh dapibus in. Phasellus lacinia nec leo at semper. Duis nisl odio, lacinia quis dui at, pretium tincidunt metus. Maecenas condimentum purus sit amet neque maximus tempor. Proin eros massa, ullamcorper eget rutrum eu, feugiat id purus.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="button secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row game-card">
+                <div class="col-lg-12 col-xl-5 game-card-left">
+                    <a href="#" class="js-video-button" data-video-id='DPBW_MFqeRs' data-channel="youtube"> <!-- Video link goes here -->
+                        <div class="overlay">
+                            <i class="fa fa-play fa-3x"></i>
+                        </div>
+                        <img src="{{asset('frontend/images/placeholder.jpg')}}" data-src="{{asset('frontend/images/game.jpg')}}" class="img-fluid b-lazy" alt="video thumbnail"> <!-- Video Thumbnail Img -->
+                    </a>
+                </div>
+                <div class="col-lg-12 col-xl-7 game-card-right">
+                    <h2 class="short-hr-left">World soccer</h2>
+                    <p class="game-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis rhoncus nibh. Phasellus dignissim luctus consectetur. Fusce viverra est non purus ultrices, vel molestie massa tincidunt. <span class="expand colored strong" data-toggle="modal" data-target="#game1">Read More</span></p>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade game-modal" id="game1" tabindex="-1" role="dialog" aria-labelledby="scales" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title" id="scales">SWORDS &amp; SCALES</h1>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <h2 class="short-hr-left">TEAM UP AND FIGHT DRAGONS</h2>
+                                <p>Integer eget diam felis. Quisque et aliquet lectus, et lacinia turpis. Praesent eget pretium orci. Sed vestibulum rutrum volutpat. Curabitur feugiat arcu odio, quis convallis eros laoreet ac.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">MAKE FRIENDS</h2>
+                                <p>Suspendisse ultricies, dui vitae convallis blandit, ipsum sem mattis diam, in egestas arcu lacus sed lectus. Donec at interdum tellus. Quisque pellentesque a felis et rutrum. Donec condimentum magna sit amet viverra convallis. Fusce accumsan efficitur orci a commodo.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">TRAIN YOUR DRAGON</h2>
+                                <p>Mauris at sapien nibh. Integer id tellus vitae ante cursus pharetra. Vestibulum ultrices eleifend enim, quis maximus nibh dapibus in. Phasellus lacinia nec leo at semper. Duis nisl odio, lacinia quis dui at, pretium tincidunt metus. Maecenas condimentum purus sit amet neque maximus tempor. Proin eros massa, ullamcorper eget rutrum eu, feugiat id purus.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="button secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row game-card">
+                <div class="col-lg-12 col-xl-5 game-card-left">
+                    <a href="#" class="js-video-button" data-video-id='DPBW_MFqeRs' data-channel="youtube"> <!-- Video link goes here -->
+                        <div class="overlay">
+                            <i class="fa fa-play fa-3x"></i>
+                        </div>
+                        <img src="{{asset('frontend/images/placeholder.jpg')}}" data-src="{{asset('frontend/images/game.jpg')}}" class="img-fluid b-lazy" alt="video thumbnail"> <!-- Video Thumbnail Img -->
+                    </a>
+                </div>
+                <div class="col-lg-12 col-xl-7 game-card-right">
+                    <h2 class="short-hr-left">Sniper</h2>
+                    <p class="game-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis rhoncus nibh. Phasellus dignissim luctus consectetur. Fusce viverra est non purus ultrices, vel molestie massa tincidunt. <span class="expand colored strong" data-toggle="modal" data-target="#game1">Read More</span></p>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade game-modal" id="game1" tabindex="-1" role="dialog" aria-labelledby="scales" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title" id="scales">SWORDS &amp; SCALES</h1>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <h2 class="short-hr-left">TEAM UP AND FIGHT DRAGONS</h2>
+                                <p>Integer eget diam felis. Quisque et aliquet lectus, et lacinia turpis. Praesent eget pretium orci. Sed vestibulum rutrum volutpat. Curabitur feugiat arcu odio, quis convallis eros laoreet ac.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">MAKE FRIENDS</h2>
+                                <p>Suspendisse ultricies, dui vitae convallis blandit, ipsum sem mattis diam, in egestas arcu lacus sed lectus. Donec at interdum tellus. Quisque pellentesque a felis et rutrum. Donec condimentum magna sit amet viverra convallis. Fusce accumsan efficitur orci a commodo.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">TRAIN YOUR DRAGON</h2>
+                                <p>Mauris at sapien nibh. Integer id tellus vitae ante cursus pharetra. Vestibulum ultrices eleifend enim, quis maximus nibh dapibus in. Phasellus lacinia nec leo at semper. Duis nisl odio, lacinia quis dui at, pretium tincidunt metus. Maecenas condimentum purus sit amet neque maximus tempor. Proin eros massa, ullamcorper eget rutrum eu, feugiat id purus.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="button secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row game-card">
+                <div class="col-lg-12 col-xl-5 game-card-left">
+                    <a href="#" class="js-video-button" data-video-id='DPBW_MFqeRs' data-channel="youtube"> <!-- Video link goes here -->
+                        <div class="overlay">
+                            <i class="fa fa-play fa-3x"></i>
+                        </div>
+                        <img src="{{asset('frontend/images/placeholder.jpg')}}" data-src="{{asset('frontend/images/game.jpg')}}" class="img-fluid b-lazy" alt="video thumbnail"> <!-- Video Thumbnail Img -->
+                    </a>
+                </div>
+                <div class="col-lg-12 col-xl-7 game-card-right">
+                    <h2 class="short-hr-left">Bubble</h2>
+                    <p class="game-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis rhoncus nibh. Phasellus dignissim luctus consectetur. Fusce viverra est non purus ultrices, vel molestie massa tincidunt. <span class="expand colored strong" data-toggle="modal" data-target="#game1">Read More</span></p>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade game-modal" id="game1" tabindex="-1" role="dialog" aria-labelledby="scales" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title" id="scales">SWORDS &amp; SCALES</h1>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <h2 class="short-hr-left">TEAM UP AND FIGHT DRAGONS</h2>
+                                <p>Integer eget diam felis. Quisque et aliquet lectus, et lacinia turpis. Praesent eget pretium orci. Sed vestibulum rutrum volutpat. Curabitur feugiat arcu odio, quis convallis eros laoreet ac.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">MAKE FRIENDS</h2>
+                                <p>Suspendisse ultricies, dui vitae convallis blandit, ipsum sem mattis diam, in egestas arcu lacus sed lectus. Donec at interdum tellus. Quisque pellentesque a felis et rutrum. Donec condimentum magna sit amet viverra convallis. Fusce accumsan efficitur orci a commodo.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">TRAIN YOUR DRAGON</h2>
+                                <p>Mauris at sapien nibh. Integer id tellus vitae ante cursus pharetra. Vestibulum ultrices eleifend enim, quis maximus nibh dapibus in. Phasellus lacinia nec leo at semper. Duis nisl odio, lacinia quis dui at, pretium tincidunt metus. Maecenas condimentum purus sit amet neque maximus tempor. Proin eros massa, ullamcorper eget rutrum eu, feugiat id purus.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="button secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row game-card">
+                <div class="col-lg-12 col-xl-5 game-card-left">
+                    <a href="#" class="js-video-button" data-video-id='DPBW_MFqeRs' data-channel="youtube"> <!-- Video link goes here -->
+                        <div class="overlay">
+                            <i class="fa fa-play fa-3x"></i>
+                        </div>
+                        <img src="{{asset('frontend/images/placeholder.jpg')}}" data-src="{{asset('frontend/images/game.jpg')}}" class="img-fluid b-lazy" alt="video thumbnail"> <!-- Video Thumbnail Img -->
+                    </a>
+                </div>
+                <div class="col-lg-12 col-xl-7 game-card-right">
+                    <h2 class="short-hr-left">Bomb</h2>
+                    <p class="game-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis rhoncus nibh. Phasellus dignissim luctus consectetur. Fusce viverra est non purus ultrices, vel molestie massa tincidunt. <span class="expand colored strong" data-toggle="modal" data-target="#game1">Read More</span></p>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade game-modal" id="game1" tabindex="-1" role="dialog" aria-labelledby="scales" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title" id="scales">SWORDS &amp; SCALES</h1>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <h2 class="short-hr-left">TEAM UP AND FIGHT DRAGONS</h2>
+                                <p>Integer eget diam felis. Quisque et aliquet lectus, et lacinia turpis. Praesent eget pretium orci. Sed vestibulum rutrum volutpat. Curabitur feugiat arcu odio, quis convallis eros laoreet ac.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">MAKE FRIENDS</h2>
+                                <p>Suspendisse ultricies, dui vitae convallis blandit, ipsum sem mattis diam, in egestas arcu lacus sed lectus. Donec at interdum tellus. Quisque pellentesque a felis et rutrum. Donec condimentum magna sit amet viverra convallis. Fusce accumsan efficitur orci a commodo.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">TRAIN YOUR DRAGON</h2>
+                                <p>Mauris at sapien nibh. Integer id tellus vitae ante cursus pharetra. Vestibulum ultrices eleifend enim, quis maximus nibh dapibus in. Phasellus lacinia nec leo at semper. Duis nisl odio, lacinia quis dui at, pretium tincidunt metus. Maecenas condimentum purus sit amet neque maximus tempor. Proin eros massa, ullamcorper eget rutrum eu, feugiat id purus.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="button secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row game-card">
+                <div class="col-lg-12 col-xl-5 game-card-left">
+                    <a href="#" class="js-video-button" data-video-id='DPBW_MFqeRs' data-channel="youtube"> <!-- Video link goes here -->
+                        <div class="overlay">
+                            <i class="fa fa-play fa-3x"></i>
+                        </div>
+                        <img src="{{asset('frontend/images/placeholder.jpg')}}" data-src="{{asset('frontend/images/game.jpg')}}" class="img-fluid b-lazy" alt="video thumbnail"> <!-- Video Thumbnail Img -->
+                    </a>
+                </div>
+                <div class="col-lg-12 col-xl-7 game-card-right">
+                    <h2 class="short-hr-left">Black Jack</h2>
+                    <p class="game-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis rhoncus nibh. Phasellus dignissim luctus consectetur. Fusce viverra est non purus ultrices, vel molestie massa tincidunt. <span class="expand colored strong" data-toggle="modal" data-target="#game1">Read More</span></p>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade game-modal" id="game1" tabindex="-1" role="dialog" aria-labelledby="scales" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title" id="scales">SWORDS &amp; SCALES</h1>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <h2 class="short-hr-left">TEAM UP AND FIGHT DRAGONS</h2>
+                                <p>Integer eget diam felis. Quisque et aliquet lectus, et lacinia turpis. Praesent eget pretium orci. Sed vestibulum rutrum volutpat. Curabitur feugiat arcu odio, quis convallis eros laoreet ac.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">MAKE FRIENDS</h2>
+                                <p>Suspendisse ultricies, dui vitae convallis blandit, ipsum sem mattis diam, in egestas arcu lacus sed lectus. Donec at interdum tellus. Quisque pellentesque a felis et rutrum. Donec condimentum magna sit amet viverra convallis. Fusce accumsan efficitur orci a commodo.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">TRAIN YOUR DRAGON</h2>
+                                <p>Mauris at sapien nibh. Integer id tellus vitae ante cursus pharetra. Vestibulum ultrices eleifend enim, quis maximus nibh dapibus in. Phasellus lacinia nec leo at semper. Duis nisl odio, lacinia quis dui at, pretium tincidunt metus. Maecenas condimentum purus sit amet neque maximus tempor. Proin eros massa, ullamcorper eget rutrum eu, feugiat id purus.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="button secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row game-card">
+                <div class="col-lg-12 col-xl-5 game-card-left">
+                    <a href="#" class="js-video-button" data-video-id='DPBW_MFqeRs' data-channel="youtube"> <!-- Video link goes here -->
+                        <div class="overlay">
+                            <i class="fa fa-play fa-3x"></i>
+                        </div>
+                        <img src="{{asset('frontend/images/placeholder.jpg')}}" data-src="{{asset('frontend/images/game.jpg')}}" class="img-fluid b-lazy" alt="video thumbnail"> <!-- Video Thumbnail Img -->
+                    </a>
+                </div>
+                <div class="col-lg-12 col-xl-7 game-card-right">
+                    <h2 class="short-hr-left">Roulette</h2>
+                    <p class="game-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis rhoncus nibh. Phasellus dignissim luctus consectetur. Fusce viverra est non purus ultrices, vel molestie massa tincidunt. <span class="expand colored strong" data-toggle="modal" data-target="#game1">Read More</span></p>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade game-modal" id="game1" tabindex="-1" role="dialog" aria-labelledby="scales" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title" id="scales">SWORDS &amp; SCALES</h1>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <h2 class="short-hr-left">TEAM UP AND FIGHT DRAGONS</h2>
+                                <p>Integer eget diam felis. Quisque et aliquet lectus, et lacinia turpis. Praesent eget pretium orci. Sed vestibulum rutrum volutpat. Curabitur feugiat arcu odio, quis convallis eros laoreet ac.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">MAKE FRIENDS</h2>
+                                <p>Suspendisse ultricies, dui vitae convallis blandit, ipsum sem mattis diam, in egestas arcu lacus sed lectus. Donec at interdum tellus. Quisque pellentesque a felis et rutrum. Donec condimentum magna sit amet viverra convallis. Fusce accumsan efficitur orci a commodo.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">TRAIN YOUR DRAGON</h2>
+                                <p>Mauris at sapien nibh. Integer id tellus vitae ante cursus pharetra. Vestibulum ultrices eleifend enim, quis maximus nibh dapibus in. Phasellus lacinia nec leo at semper. Duis nisl odio, lacinia quis dui at, pretium tincidunt metus. Maecenas condimentum purus sit amet neque maximus tempor. Proin eros massa, ullamcorper eget rutrum eu, feugiat id purus.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="button secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row game-card">
+                <div class="col-lg-12 col-xl-5 game-card-left">
+                    <a href="#" class="js-video-button" data-video-id='DPBW_MFqeRs' data-channel="youtube"> <!-- Video link goes here -->
+                        <div class="overlay">
+                            <i class="fa fa-play fa-3x"></i>
+                        </div>
+                        <img src="{{asset('frontend/images/placeholder.jpg')}}" data-src="{{asset('frontend/images/game.jpg')}}" class="img-fluid b-lazy" alt="video thumbnail"> <!-- Video Thumbnail Img -->
+                    </a>
+                </div>
+                <div class="col-lg-12 col-xl-7 game-card-right">
+                    <h2 class="short-hr-left">Piano</h2>
+                    <p class="game-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis rhoncus nibh. Phasellus dignissim luctus consectetur. Fusce viverra est non purus ultrices, vel molestie massa tincidunt. <span class="expand colored strong" data-toggle="modal" data-target="#game1">Read More</span></p>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade game-modal" id="game1" tabindex="-1" role="dialog" aria-labelledby="scales" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title" id="scales">SWORDS &amp; SCALES</h1>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <h2 class="short-hr-left">TEAM UP AND FIGHT DRAGONS</h2>
+                                <p>Integer eget diam felis. Quisque et aliquet lectus, et lacinia turpis. Praesent eget pretium orci. Sed vestibulum rutrum volutpat. Curabitur feugiat arcu odio, quis convallis eros laoreet ac.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">MAKE FRIENDS</h2>
+                                <p>Suspendisse ultricies, dui vitae convallis blandit, ipsum sem mattis diam, in egestas arcu lacus sed lectus. Donec at interdum tellus. Quisque pellentesque a felis et rutrum. Donec condimentum magna sit amet viverra convallis. Fusce accumsan efficitur orci a commodo.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">TRAIN YOUR DRAGON</h2>
+                                <p>Mauris at sapien nibh. Integer id tellus vitae ante cursus pharetra. Vestibulum ultrices eleifend enim, quis maximus nibh dapibus in. Phasellus lacinia nec leo at semper. Duis nisl odio, lacinia quis dui at, pretium tincidunt metus. Maecenas condimentum purus sit amet neque maximus tempor. Proin eros massa, ullamcorper eget rutrum eu, feugiat id purus.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="button secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row game-card">
+                <div class="col-lg-12 col-xl-5 game-card-left">
+                    <a href="#" class="js-video-button" data-video-id='DPBW_MFqeRs' data-channel="youtube"> <!-- Video link goes here -->
+                        <div class="overlay">
+                            <i class="fa fa-play fa-3x"></i>
+                        </div>
+                        <img src="{{asset('frontend/images/placeholder.jpg')}}" data-src="{{asset('frontend/images/game.jpg')}}" class="img-fluid b-lazy" alt="video thumbnail"> <!-- Video Thumbnail Img -->
+                    </a>
+                </div>
+                <div class="col-lg-12 col-xl-7 game-card-right">
+                    <h2 class="short-hr-left">Chess</h2>
+                    <p class="game-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis rhoncus nibh. Phasellus dignissim luctus consectetur. Fusce viverra est non purus ultrices, vel molestie massa tincidunt. <span class="expand colored strong" data-toggle="modal" data-target="#game1">Read More</span></p>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade game-modal" id="game1" tabindex="-1" role="dialog" aria-labelledby="scales" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title" id="scales">SWORDS &amp; SCALES</h1>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <h2 class="short-hr-left">TEAM UP AND FIGHT DRAGONS</h2>
+                                <p>Integer eget diam felis. Quisque et aliquet lectus, et lacinia turpis. Praesent eget pretium orci. Sed vestibulum rutrum volutpat. Curabitur feugiat arcu odio, quis convallis eros laoreet ac.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">MAKE FRIENDS</h2>
+                                <p>Suspendisse ultricies, dui vitae convallis blandit, ipsum sem mattis diam, in egestas arcu lacus sed lectus. Donec at interdum tellus. Quisque pellentesque a felis et rutrum. Donec condimentum magna sit amet viverra convallis. Fusce accumsan efficitur orci a commodo.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">TRAIN YOUR DRAGON</h2>
+                                <p>Mauris at sapien nibh. Integer id tellus vitae ante cursus pharetra. Vestibulum ultrices eleifend enim, quis maximus nibh dapibus in. Phasellus lacinia nec leo at semper. Duis nisl odio, lacinia quis dui at, pretium tincidunt metus. Maecenas condimentum purus sit amet neque maximus tempor. Proin eros massa, ullamcorper eget rutrum eu, feugiat id purus.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="button secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="row game-card">
+                <div class="col-lg-12 col-xl-5 game-card-left">
+                    <a href="#" class="js-video-button" data-video-id='DPBW_MFqeRs' data-channel="youtube"> <!-- Video link goes here -->
+                        <div class="overlay">
+                            <i class="fa fa-play fa-3x"></i>
+                        </div>
+                        <img src="{{asset('frontend/images/placeholder.jpg')}}" data-src="{{asset('frontend/images/game.jpg')}}" class="img-fluid b-lazy" alt="video thumbnail"> <!-- Video Thumbnail Img -->
+                    </a>
+                </div>
+                <div class="col-lg-12 col-xl-7 game-card-right">
+                    <h2 class="short-hr-left">Match</h2>
+                    <p class="game-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis rhoncus nibh. Phasellus dignissim luctus consectetur. Fusce viverra est non purus ultrices, vel molestie massa tincidunt. <span class="expand colored strong" data-toggle="modal" data-target="#game1">Read More</span></p>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade game-modal" id="game1" tabindex="-1" role="dialog" aria-labelledby="scales" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title" id="scales">SWORDS &amp; SCALES</h1>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <h2 class="short-hr-left">TEAM UP AND FIGHT DRAGONS</h2>
+                                <p>Integer eget diam felis. Quisque et aliquet lectus, et lacinia turpis. Praesent eget pretium orci. Sed vestibulum rutrum volutpat. Curabitur feugiat arcu odio, quis convallis eros laoreet ac.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">MAKE FRIENDS</h2>
+                                <p>Suspendisse ultricies, dui vitae convallis blandit, ipsum sem mattis diam, in egestas arcu lacus sed lectus. Donec at interdum tellus. Quisque pellentesque a felis et rutrum. Donec condimentum magna sit amet viverra convallis. Fusce accumsan efficitur orci a commodo.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">TRAIN YOUR DRAGON</h2>
+                                <p>Mauris at sapien nibh. Integer id tellus vitae ante cursus pharetra. Vestibulum ultrices eleifend enim, quis maximus nibh dapibus in. Phasellus lacinia nec leo at semper. Duis nisl odio, lacinia quis dui at, pretium tincidunt metus. Maecenas condimentum purus sit amet neque maximus tempor. Proin eros massa, ullamcorper eget rutrum eu, feugiat id purus.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="button secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row game-card">
+                <div class="col-lg-12 col-xl-5 game-card-left">
+                    <a href="#" class="js-video-button" data-video-id='DPBW_MFqeRs' data-channel="youtube"> <!-- Video link goes here -->
+                        <div class="overlay">
+                            <i class="fa fa-play fa-3x"></i>
+                        </div>
+                        <img src="{{asset('frontend/images/placeholder.jpg')}}" data-src="{{asset('frontend/images/game.jpg')}}" class="img-fluid b-lazy" alt="video thumbnail"> <!-- Video Thumbnail Img -->
+                    </a>
+                </div>
+                <div class="col-lg-12 col-xl-7 game-card-right">
+                    <h2 class="short-hr-left">Paint</h2>
+                    <p class="game-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis rhoncus nibh. Phasellus dignissim luctus consectetur. Fusce viverra est non purus ultrices, vel molestie massa tincidunt. <span class="expand colored strong" data-toggle="modal" data-target="#game1">Read More</span></p>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade game-modal" id="game1" tabindex="-1" role="dialog" aria-labelledby="scales" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title" id="scales">SWORDS &amp; SCALES</h1>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <h2 class="short-hr-left">TEAM UP AND FIGHT DRAGONS</h2>
+                                <p>Integer eget diam felis. Quisque et aliquet lectus, et lacinia turpis. Praesent eget pretium orci. Sed vestibulum rutrum volutpat. Curabitur feugiat arcu odio, quis convallis eros laoreet ac.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">MAKE FRIENDS</h2>
+                                <p>Suspendisse ultricies, dui vitae convallis blandit, ipsum sem mattis diam, in egestas arcu lacus sed lectus. Donec at interdum tellus. Quisque pellentesque a felis et rutrum. Donec condimentum magna sit amet viverra convallis. Fusce accumsan efficitur orci a commodo.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">TRAIN YOUR DRAGON</h2>
+                                <p>Mauris at sapien nibh. Integer id tellus vitae ante cursus pharetra. Vestibulum ultrices eleifend enim, quis maximus nibh dapibus in. Phasellus lacinia nec leo at semper. Duis nisl odio, lacinia quis dui at, pretium tincidunt metus. Maecenas condimentum purus sit amet neque maximus tempor. Proin eros massa, ullamcorper eget rutrum eu, feugiat id purus.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="button secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row game-card">
+                <div class="col-lg-12 col-xl-5 game-card-left">
+                    <a href="#" class="js-video-button" data-video-id='DPBW_MFqeRs' data-channel="youtube"> <!-- Video link goes here -->
+                        <div class="overlay">
+                            <i class="fa fa-play fa-3x"></i>
+                        </div>
+                        <img src="{{asset('frontend/images/placeholder.jpg')}}" data-src="{{asset('frontend/images/game.jpg')}}" class="img-fluid b-lazy" alt="video thumbnail"> <!-- Video Thumbnail Img -->
+                    </a>
+                </div>
+                <div class="col-lg-12 col-xl-7 game-card-right">
+                    <h2 class="short-hr-left">Golf</h2>
+                    <p class="game-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis rhoncus nibh. Phasellus dignissim luctus consectetur. Fusce viverra est non purus ultrices, vel molestie massa tincidunt. <span class="expand colored strong" data-toggle="modal" data-target="#game1">Read More</span></p>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade game-modal" id="game1" tabindex="-1" role="dialog" aria-labelledby="scales" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title" id="scales">SWORDS &amp; SCALES</h1>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <h2 class="short-hr-left">TEAM UP AND FIGHT DRAGONS</h2>
+                                <p>Integer eget diam felis. Quisque et aliquet lectus, et lacinia turpis. Praesent eget pretium orci. Sed vestibulum rutrum volutpat. Curabitur feugiat arcu odio, quis convallis eros laoreet ac.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">MAKE FRIENDS</h2>
+                                <p>Suspendisse ultricies, dui vitae convallis blandit, ipsum sem mattis diam, in egestas arcu lacus sed lectus. Donec at interdum tellus. Quisque pellentesque a felis et rutrum. Donec condimentum magna sit amet viverra convallis. Fusce accumsan efficitur orci a commodo.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">TRAIN YOUR DRAGON</h2>
+                                <p>Mauris at sapien nibh. Integer id tellus vitae ante cursus pharetra. Vestibulum ultrices eleifend enim, quis maximus nibh dapibus in. Phasellus lacinia nec leo at semper. Duis nisl odio, lacinia quis dui at, pretium tincidunt metus. Maecenas condimentum purus sit amet neque maximus tempor. Proin eros massa, ullamcorper eget rutrum eu, feugiat id purus.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="button secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row game-card">
+                <div class="col-lg-12 col-xl-5 game-card-left">
+                    <a href="#" class="js-video-button" data-video-id='DPBW_MFqeRs' data-channel="youtube"> <!-- Video link goes here -->
+                        <div class="overlay">
+                            <i class="fa fa-play fa-3x"></i>
+                        </div>
+                        <img src="{{asset('frontend/images/placeholder.jpg')}}" data-src="{{asset('frontend/images/game.jpg')}}" class="img-fluid b-lazy" alt="video thumbnail"> <!-- Video Thumbnail Img -->
+                    </a>
+                </div>
+                <div class="col-lg-12 col-xl-7 game-card-right">
+                    <h2 class="short-hr-left">Hunt</h2>
+                    <p class="game-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis rhoncus nibh. Phasellus dignissim luctus consectetur. Fusce viverra est non purus ultrices, vel molestie massa tincidunt. <span class="expand colored strong" data-toggle="modal" data-target="#game1">Read More</span></p>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade game-modal" id="game1" tabindex="-1" role="dialog" aria-labelledby="scales" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title" id="scales">SWORDS &amp; SCALES</h1>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <h2 class="short-hr-left">TEAM UP AND FIGHT DRAGONS</h2>
+                                <p>Integer eget diam felis. Quisque et aliquet lectus, et lacinia turpis. Praesent eget pretium orci. Sed vestibulum rutrum volutpat. Curabitur feugiat arcu odio, quis convallis eros laoreet ac.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">MAKE FRIENDS</h2>
+                                <p>Suspendisse ultricies, dui vitae convallis blandit, ipsum sem mattis diam, in egestas arcu lacus sed lectus. Donec at interdum tellus. Quisque pellentesque a felis et rutrum. Donec condimentum magna sit amet viverra convallis. Fusce accumsan efficitur orci a commodo.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">TRAIN YOUR DRAGON</h2>
+                                <p>Mauris at sapien nibh. Integer id tellus vitae ante cursus pharetra. Vestibulum ultrices eleifend enim, quis maximus nibh dapibus in. Phasellus lacinia nec leo at semper. Duis nisl odio, lacinia quis dui at, pretium tincidunt metus. Maecenas condimentum purus sit amet neque maximus tempor. Proin eros massa, ullamcorper eget rutrum eu, feugiat id purus.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="button secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row game-card">
+                <div class="col-lg-12 col-xl-5 game-card-left">
+                    <a href="#" class="js-video-button" data-video-id='DPBW_MFqeRs' data-channel="youtube"> <!-- Video link goes here -->
+                        <div class="overlay">
+                            <i class="fa fa-play fa-3x"></i>
+                        </div>
+                        <img src="{{asset('frontend/images/placeholder.jpg')}}" data-src="{{asset('frontend/images/game.jpg')}}" class="img-fluid b-lazy" alt="video thumbnail"> <!-- Video Thumbnail Img -->
+                    </a>
+                </div>
+                <div class="col-lg-12 col-xl-7 game-card-right">
+                    <h2 class="short-hr-left">Checkers</h2>
+                    <p class="game-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis rhoncus nibh. Phasellus dignissim luctus consectetur. Fusce viverra est non purus ultrices, vel molestie massa tincidunt. <span class="expand colored strong" data-toggle="modal" data-target="#game1">Read More</span></p>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade game-modal" id="game1" tabindex="-1" role="dialog" aria-labelledby="scales" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title" id="scales">SWORDS &amp; SCALES</h1>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <h2 class="short-hr-left">TEAM UP AND FIGHT DRAGONS</h2>
+                                <p>Integer eget diam felis. Quisque et aliquet lectus, et lacinia turpis. Praesent eget pretium orci. Sed vestibulum rutrum volutpat. Curabitur feugiat arcu odio, quis convallis eros laoreet ac.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">MAKE FRIENDS</h2>
+                                <p>Suspendisse ultricies, dui vitae convallis blandit, ipsum sem mattis diam, in egestas arcu lacus sed lectus. Donec at interdum tellus. Quisque pellentesque a felis et rutrum. Donec condimentum magna sit amet viverra convallis. Fusce accumsan efficitur orci a commodo.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">TRAIN YOUR DRAGON</h2>
+                                <p>Mauris at sapien nibh. Integer id tellus vitae ante cursus pharetra. Vestibulum ultrices eleifend enim, quis maximus nibh dapibus in. Phasellus lacinia nec leo at semper. Duis nisl odio, lacinia quis dui at, pretium tincidunt metus. Maecenas condimentum purus sit amet neque maximus tempor. Proin eros massa, ullamcorper eget rutrum eu, feugiat id purus.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="button secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row game-card">
+                <div class="col-lg-12 col-xl-5 game-card-left">
+                    <a href="#" class="js-video-button" data-video-id='DPBW_MFqeRs' data-channel="youtube"> <!-- Video link goes here -->
+                        <div class="overlay">
+                            <i class="fa fa-play fa-3x"></i>
+                        </div>
+                        <img src="{{asset('frontend/images/placeholder.jpg')}}" data-src="{{asset('frontend/images/game.jpg')}}" class="img-fluid b-lazy" alt="video thumbnail"> <!-- Video Thumbnail Img -->
+                    </a>
+                </div>
+                <div class="col-lg-12 col-xl-7 game-card-right">
+                    <h2 class="short-hr-left">Table tennis</h2>
+                    <p class="game-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis rhoncus nibh. Phasellus dignissim luctus consectetur. Fusce viverra est non purus ultrices, vel molestie massa tincidunt. <span class="expand colored strong" data-toggle="modal" data-target="#game1">Read More</span></p>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade game-modal" id="game1" tabindex="-1" role="dialog" aria-labelledby="scales" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title" id="scales">SWORDS &amp; SCALES</h1>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <h2 class="short-hr-left">TEAM UP AND FIGHT DRAGONS</h2>
+                                <p>Integer eget diam felis. Quisque et aliquet lectus, et lacinia turpis. Praesent eget pretium orci. Sed vestibulum rutrum volutpat. Curabitur feugiat arcu odio, quis convallis eros laoreet ac.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">MAKE FRIENDS</h2>
+                                <p>Suspendisse ultricies, dui vitae convallis blandit, ipsum sem mattis diam, in egestas arcu lacus sed lectus. Donec at interdum tellus. Quisque pellentesque a felis et rutrum. Donec condimentum magna sit amet viverra convallis. Fusce accumsan efficitur orci a commodo.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">TRAIN YOUR DRAGON</h2>
+                                <p>Mauris at sapien nibh. Integer id tellus vitae ante cursus pharetra. Vestibulum ultrices eleifend enim, quis maximus nibh dapibus in. Phasellus lacinia nec leo at semper. Duis nisl odio, lacinia quis dui at, pretium tincidunt metus. Maecenas condimentum purus sit amet neque maximus tempor. Proin eros massa, ullamcorper eget rutrum eu, feugiat id purus.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="button secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row game-card">
+                <div class="col-lg-12 col-xl-5 game-card-left">
+                    <a href="#" class="js-video-button" data-video-id='DPBW_MFqeRs' data-channel="youtube"> <!-- Video link goes here -->
+                        <div class="overlay">
+                            <i class="fa fa-play fa-3x"></i>
+                        </div>
+                        <img src="{{asset('frontend/images/placeholder.jpg')}}" data-src="{{asset('frontend/images/game.jpg')}}" class="img-fluid b-lazy" alt="video thumbnail"> <!-- Video Thumbnail Img -->
+                    </a>
+                </div>
+                <div class="col-lg-12 col-xl-7 game-card-right">
+                    <h2 class="short-hr-left">Drums</h2>
+                    <p class="game-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis rhoncus nibh. Phasellus dignissim luctus consectetur. Fusce viverra est non purus ultrices, vel molestie massa tincidunt. <span class="expand colored strong" data-toggle="modal" data-target="#game1">Read More</span></p>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade game-modal" id="game1" tabindex="-1" role="dialog" aria-labelledby="scales" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title" id="scales">SWORDS &amp; SCALES</h1>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <h2 class="short-hr-left">TEAM UP AND FIGHT DRAGONS</h2>
+                                <p>Integer eget diam felis. Quisque et aliquet lectus, et lacinia turpis. Praesent eget pretium orci. Sed vestibulum rutrum volutpat. Curabitur feugiat arcu odio, quis convallis eros laoreet ac.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">MAKE FRIENDS</h2>
+                                <p>Suspendisse ultricies, dui vitae convallis blandit, ipsum sem mattis diam, in egestas arcu lacus sed lectus. Donec at interdum tellus. Quisque pellentesque a felis et rutrum. Donec condimentum magna sit amet viverra convallis. Fusce accumsan efficitur orci a commodo.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">TRAIN YOUR DRAGON</h2>
+                                <p>Mauris at sapien nibh. Integer id tellus vitae ante cursus pharetra. Vestibulum ultrices eleifend enim, quis maximus nibh dapibus in. Phasellus lacinia nec leo at semper. Duis nisl odio, lacinia quis dui at, pretium tincidunt metus. Maecenas condimentum purus sit amet neque maximus tempor. Proin eros massa, ullamcorper eget rutrum eu, feugiat id purus.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="button secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row game-card">
+                <div class="col-lg-12 col-xl-5 game-card-left">
+                    <a href="#" class="js-video-button" data-video-id='DPBW_MFqeRs' data-channel="youtube"> <!-- Video link goes here -->
+                        <div class="overlay">
+                            <i class="fa fa-play fa-3x"></i>
+                        </div>
+                        <img src="{{asset('frontend/images/placeholder.jpg')}}" data-src="{{asset('frontend/images/game.jpg')}}" class="img-fluid b-lazy" alt="video thumbnail"> <!-- Video Thumbnail Img -->
+                    </a>
+                </div>
+                <div class="col-lg-12 col-xl-7 game-card-right">
+                    <h2 class="short-hr-left">Fight</h2>
+                    <p class="game-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis rhoncus nibh. Phasellus dignissim luctus consectetur. Fusce viverra est non purus ultrices, vel molestie massa tincidunt. <span class="expand colored strong" data-toggle="modal" data-target="#game1">Read More</span></p>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade game-modal" id="game1" tabindex="-1" role="dialog" aria-labelledby="scales" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title" id="scales">SWORDS &amp; SCALES</h1>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <h2 class="short-hr-left">TEAM UP AND FIGHT DRAGONS</h2>
+                                <p>Integer eget diam felis. Quisque et aliquet lectus, et lacinia turpis. Praesent eget pretium orci. Sed vestibulum rutrum volutpat. Curabitur feugiat arcu odio, quis convallis eros laoreet ac.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">MAKE FRIENDS</h2>
+                                <p>Suspendisse ultricies, dui vitae convallis blandit, ipsum sem mattis diam, in egestas arcu lacus sed lectus. Donec at interdum tellus. Quisque pellentesque a felis et rutrum. Donec condimentum magna sit amet viverra convallis. Fusce accumsan efficitur orci a commodo.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">TRAIN YOUR DRAGON</h2>
+                                <p>Mauris at sapien nibh. Integer id tellus vitae ante cursus pharetra. Vestibulum ultrices eleifend enim, quis maximus nibh dapibus in. Phasellus lacinia nec leo at semper. Duis nisl odio, lacinia quis dui at, pretium tincidunt metus. Maecenas condimentum purus sit amet neque maximus tempor. Proin eros massa, ullamcorper eget rutrum eu, feugiat id purus.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="button secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row game-card">
+                <div class="col-lg-12 col-xl-5 game-card-left">
+                    <a href="#" class="js-video-button" data-video-id='DPBW_MFqeRs' data-channel="youtube"> <!-- Video link goes here -->
+                        <div class="overlay">
+                            <i class="fa fa-play fa-3x"></i>
+                        </div>
+                        <img src="{{asset('frontend/images/placeholder.jpg')}}" data-src="{{asset('frontend/images/game.jpg')}}" class="img-fluid b-lazy" alt="video thumbnail"> <!-- Video Thumbnail Img -->
+                    </a>
+                </div>
+                <div class="col-lg-12 col-xl-7 game-card-right">
+                    <h2 class="short-hr-left">Survival</h2>
+                    <p class="game-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis rhoncus nibh. Phasellus dignissim luctus consectetur. Fusce viverra est non purus ultrices, vel molestie massa tincidunt. <span class="expand colored strong" data-toggle="modal" data-target="#game1">Read More</span></p>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade game-modal" id="game1" tabindex="-1" role="dialog" aria-labelledby="scales" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title" id="scales">SWORDS &amp; SCALES</h1>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <h2 class="short-hr-left">TEAM UP AND FIGHT DRAGONS</h2>
+                                <p>Integer eget diam felis. Quisque et aliquet lectus, et lacinia turpis. Praesent eget pretium orci. Sed vestibulum rutrum volutpat. Curabitur feugiat arcu odio, quis convallis eros laoreet ac.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">MAKE FRIENDS</h2>
+                                <p>Suspendisse ultricies, dui vitae convallis blandit, ipsum sem mattis diam, in egestas arcu lacus sed lectus. Donec at interdum tellus. Quisque pellentesque a felis et rutrum. Donec condimentum magna sit amet viverra convallis. Fusce accumsan efficitur orci a commodo.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">TRAIN YOUR DRAGON</h2>
+                                <p>Mauris at sapien nibh. Integer id tellus vitae ante cursus pharetra. Vestibulum ultrices eleifend enim, quis maximus nibh dapibus in. Phasellus lacinia nec leo at semper. Duis nisl odio, lacinia quis dui at, pretium tincidunt metus. Maecenas condimentum purus sit amet neque maximus tempor. Proin eros massa, ullamcorper eget rutrum eu, feugiat id purus.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="button secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row game-card">
+                <div class="col-lg-12 col-xl-5 game-card-left">
+                    <a href="#" class="js-video-button" data-video-id='DPBW_MFqeRs' data-channel="youtube"> <!-- Video link goes here -->
+                        <div class="overlay">
+                            <i class="fa fa-play fa-3x"></i>
+                        </div>
+                        <img src="{{asset('frontend/images/placeholder.jpg')}}" data-src="{{asset('frontend/images/game.jpg')}}" class="img-fluid b-lazy" alt="video thumbnail"> <!-- Video Thumbnail Img -->
+                    </a>
+                </div>
+                <div class="col-lg-12 col-xl-7 game-card-right">
+                    <h2 class="short-hr-left">Guitar</h2>
+                    <p class="game-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis rhoncus nibh. Phasellus dignissim luctus consectetur. Fusce viverra est non purus ultrices, vel molestie massa tincidunt. <span class="expand colored strong" data-toggle="modal" data-target="#game1">Read More</span></p>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade game-modal" id="game1" tabindex="-1" role="dialog" aria-labelledby="scales" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title" id="scales">SWORDS &amp; SCALES</h1>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <h2 class="short-hr-left">TEAM UP AND FIGHT DRAGONS</h2>
+                                <p>Integer eget diam felis. Quisque et aliquet lectus, et lacinia turpis. Praesent eget pretium orci. Sed vestibulum rutrum volutpat. Curabitur feugiat arcu odio, quis convallis eros laoreet ac.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">MAKE FRIENDS</h2>
+                                <p>Suspendisse ultricies, dui vitae convallis blandit, ipsum sem mattis diam, in egestas arcu lacus sed lectus. Donec at interdum tellus. Quisque pellentesque a felis et rutrum. Donec condimentum magna sit amet viverra convallis. Fusce accumsan efficitur orci a commodo.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">TRAIN YOUR DRAGON</h2>
+                                <p>Mauris at sapien nibh. Integer id tellus vitae ante cursus pharetra. Vestibulum ultrices eleifend enim, quis maximus nibh dapibus in. Phasellus lacinia nec leo at semper. Duis nisl odio, lacinia quis dui at, pretium tincidunt metus. Maecenas condimentum purus sit amet neque maximus tempor. Proin eros massa, ullamcorper eget rutrum eu, feugiat id purus.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="button secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row game-card">
+                <div class="col-lg-12 col-xl-5 game-card-left">
+                    <a href="#" class="js-video-button" data-video-id='DPBW_MFqeRs' data-channel="youtube"> <!-- Video link goes here -->
+                        <div class="overlay">
+                            <i class="fa fa-play fa-3x"></i>
+                        </div>
+                        <img src="{{asset('frontend/images/placeholder.jpg')}}" data-src="{{asset('frontend/images/game.jpg')}}" class="img-fluid b-lazy" alt="video thumbnail"> <!-- Video Thumbnail Img -->
+                    </a>
+                </div>
+                <div class="col-lg-12 col-xl-7 game-card-right">
+                    <h2 class="short-hr-left">Dog Fight</h2>
+                    <p class="game-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis rhoncus nibh. Phasellus dignissim luctus consectetur. Fusce viverra est non purus ultrices, vel molestie massa tincidunt. <span class="expand colored strong" data-toggle="modal" data-target="#game1">Read More</span></p>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade game-modal" id="game1" tabindex="-1" role="dialog" aria-labelledby="scales" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title" id="scales">SWORDS &amp; SCALES</h1>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <h2 class="short-hr-left">TEAM UP AND FIGHT DRAGONS</h2>
+                                <p>Integer eget diam felis. Quisque et aliquet lectus, et lacinia turpis. Praesent eget pretium orci. Sed vestibulum rutrum volutpat. Curabitur feugiat arcu odio, quis convallis eros laoreet ac.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">MAKE FRIENDS</h2>
+                                <p>Suspendisse ultricies, dui vitae convallis blandit, ipsum sem mattis diam, in egestas arcu lacus sed lectus. Donec at interdum tellus. Quisque pellentesque a felis et rutrum. Donec condimentum magna sit amet viverra convallis. Fusce accumsan efficitur orci a commodo.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">TRAIN YOUR DRAGON</h2>
+                                <p>Mauris at sapien nibh. Integer id tellus vitae ante cursus pharetra. Vestibulum ultrices eleifend enim, quis maximus nibh dapibus in. Phasellus lacinia nec leo at semper. Duis nisl odio, lacinia quis dui at, pretium tincidunt metus. Maecenas condimentum purus sit amet neque maximus tempor. Proin eros massa, ullamcorper eget rutrum eu, feugiat id purus.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="button secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="row game-card">
+                <div class="col-lg-12 col-xl-5 game-card-left">
+                    <a href="#" class="js-video-button" data-video-id='DPBW_MFqeRs' data-channel="youtube"> <!-- Video link goes here -->
+                        <div class="overlay">
+                            <i class="fa fa-play fa-3x"></i>
+                        </div>
+                        <img src="{{asset('frontend/images/placeholder.jpg')}}" data-src="{{asset('frontend/images/game.jpg')}}" class="img-fluid b-lazy" alt="video thumbnail"> <!-- Video Thumbnail Img -->
+                    </a>
+                </div>
+                <div class="col-lg-12 col-xl-7 game-card-right">
+                    <h2 class="short-hr-left">Trivia Live</h2>
+                    <p class="game-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis rhoncus nibh. Phasellus dignissim luctus consectetur. Fusce viverra est non purus ultrices, vel molestie massa tincidunt. <span class="expand colored strong" data-toggle="modal" data-target="#game1">Read More</span></p>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade game-modal" id="game1" tabindex="-1" role="dialog" aria-labelledby="scales" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title" id="scales">SWORDS &amp; SCALES</h1>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <h2 class="short-hr-left">TEAM UP AND FIGHT DRAGONS</h2>
+                                <p>Integer eget diam felis. Quisque et aliquet lectus, et lacinia turpis. Praesent eget pretium orci. Sed vestibulum rutrum volutpat. Curabitur feugiat arcu odio, quis convallis eros laoreet ac.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">MAKE FRIENDS</h2>
+                                <p>Suspendisse ultricies, dui vitae convallis blandit, ipsum sem mattis diam, in egestas arcu lacus sed lectus. Donec at interdum tellus. Quisque pellentesque a felis et rutrum. Donec condimentum magna sit amet viverra convallis. Fusce accumsan efficitur orci a commodo.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">TRAIN YOUR DRAGON</h2>
+                                <p>Mauris at sapien nibh. Integer id tellus vitae ante cursus pharetra. Vestibulum ultrices eleifend enim, quis maximus nibh dapibus in. Phasellus lacinia nec leo at semper. Duis nisl odio, lacinia quis dui at, pretium tincidunt metus. Maecenas condimentum purus sit amet neque maximus tempor. Proin eros massa, ullamcorper eget rutrum eu, feugiat id purus.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="button secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row game-card">
+                <div class="col-lg-12 col-xl-5 game-card-left">
+                    <a href="#" class="js-video-button" data-video-id='DPBW_MFqeRs' data-channel="youtube"> <!-- Video link goes here -->
+                        <div class="overlay">
+                            <i class="fa fa-play fa-3x"></i>
+                        </div>
+                        <img src="{{asset('frontend/images/placeholder.jpg')}}" data-src="{{asset('frontend/images/game.jpg')}}" class="img-fluid b-lazy" alt="video thumbnail"> <!-- Video Thumbnail Img -->
+                    </a>
+                </div>
+                <div class="col-lg-12 col-xl-7 game-card-right">
+                    <h2 class="short-hr-left">Night Vision</h2>
+                    <p class="game-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis rhoncus nibh. Phasellus dignissim luctus consectetur. Fusce viverra est non purus ultrices, vel molestie massa tincidunt. <span class="expand colored strong" data-toggle="modal" data-target="#game1">Read More</span></p>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade game-modal" id="game1" tabindex="-1" role="dialog" aria-labelledby="scales" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title" id="scales">SWORDS &amp; SCALES</h1>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <h2 class="short-hr-left">TEAM UP AND FIGHT DRAGONS</h2>
+                                <p>Integer eget diam felis. Quisque et aliquet lectus, et lacinia turpis. Praesent eget pretium orci. Sed vestibulum rutrum volutpat. Curabitur feugiat arcu odio, quis convallis eros laoreet ac.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">MAKE FRIENDS</h2>
+                                <p>Suspendisse ultricies, dui vitae convallis blandit, ipsum sem mattis diam, in egestas arcu lacus sed lectus. Donec at interdum tellus. Quisque pellentesque a felis et rutrum. Donec condimentum magna sit amet viverra convallis. Fusce accumsan efficitur orci a commodo.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">TRAIN YOUR DRAGON</h2>
+                                <p>Mauris at sapien nibh. Integer id tellus vitae ante cursus pharetra. Vestibulum ultrices eleifend enim, quis maximus nibh dapibus in. Phasellus lacinia nec leo at semper. Duis nisl odio, lacinia quis dui at, pretium tincidunt metus. Maecenas condimentum purus sit amet neque maximus tempor. Proin eros massa, ullamcorper eget rutrum eu, feugiat id purus.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="button secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row game-card">
+                <div class="col-lg-12 col-xl-5 game-card-left">
+                    <a href="#" class="js-video-button" data-video-id='DPBW_MFqeRs' data-channel="youtube"> <!-- Video link goes here -->
+                        <div class="overlay">
+                            <i class="fa fa-play fa-3x"></i>
+                        </div>
+                        <img src="{{asset('frontend/images/placeholder.jpg')}}" data-src="{{asset('frontend/images/game.jpg')}}" class="img-fluid b-lazy" alt="video thumbnail"> <!-- Video Thumbnail Img -->
+                    </a>
+                </div>
+                <div class="col-lg-12 col-xl-7 game-card-right">
+                    <h2 class="short-hr-left">Zomb</h2>
+                    <p class="game-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis rhoncus nibh. Phasellus dignissim luctus consectetur. Fusce viverra est non purus ultrices, vel molestie massa tincidunt. <span class="expand colored strong" data-toggle="modal" data-target="#game1">Read More</span></p>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade game-modal" id="game1" tabindex="-1" role="dialog" aria-labelledby="scales" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title" id="scales">SWORDS &amp; SCALES</h1>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <h2 class="short-hr-left">TEAM UP AND FIGHT DRAGONS</h2>
+                                <p>Integer eget diam felis. Quisque et aliquet lectus, et lacinia turpis. Praesent eget pretium orci. Sed vestibulum rutrum volutpat. Curabitur feugiat arcu odio, quis convallis eros laoreet ac.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">MAKE FRIENDS</h2>
+                                <p>Suspendisse ultricies, dui vitae convallis blandit, ipsum sem mattis diam, in egestas arcu lacus sed lectus. Donec at interdum tellus. Quisque pellentesque a felis et rutrum. Donec condimentum magna sit amet viverra convallis. Fusce accumsan efficitur orci a commodo.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">TRAIN YOUR DRAGON</h2>
+                                <p>Mauris at sapien nibh. Integer id tellus vitae ante cursus pharetra. Vestibulum ultrices eleifend enim, quis maximus nibh dapibus in. Phasellus lacinia nec leo at semper. Duis nisl odio, lacinia quis dui at, pretium tincidunt metus. Maecenas condimentum purus sit amet neque maximus tempor. Proin eros massa, ullamcorper eget rutrum eu, feugiat id purus.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="button secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row game-card">
+                <div class="col-lg-12 col-xl-5 game-card-left">
+                    <a href="#" class="js-video-button" data-video-id='DPBW_MFqeRs' data-channel="youtube"> <!-- Video link goes here -->
+                        <div class="overlay">
+                            <i class="fa fa-play fa-3x"></i>
+                        </div>
+                        <img src="{{asset('frontend/images/placeholder.jpg')}}" data-src="{{asset('frontend/images/game.jpg')}}" class="img-fluid b-lazy" alt="video thumbnail"> <!-- Video Thumbnail Img -->
+                    </a>
+                </div>
+                <div class="col-lg-12 col-xl-7 game-card-right">
+                    <h2 class="short-hr-left">Aliens</h2>
+                    <p class="game-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis rhoncus nibh. Phasellus dignissim luctus consectetur. Fusce viverra est non purus ultrices, vel molestie massa tincidunt. <span class="expand colored strong" data-toggle="modal" data-target="#game1">Read More</span></p>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade game-modal" id="game1" tabindex="-1" role="dialog" aria-labelledby="scales" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title" id="scales">SWORDS &amp; SCALES</h1>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <h2 class="short-hr-left">TEAM UP AND FIGHT DRAGONS</h2>
+                                <p>Integer eget diam felis. Quisque et aliquet lectus, et lacinia turpis. Praesent eget pretium orci. Sed vestibulum rutrum volutpat. Curabitur feugiat arcu odio, quis convallis eros laoreet ac.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">MAKE FRIENDS</h2>
+                                <p>Suspendisse ultricies, dui vitae convallis blandit, ipsum sem mattis diam, in egestas arcu lacus sed lectus. Donec at interdum tellus. Quisque pellentesque a felis et rutrum. Donec condimentum magna sit amet viverra convallis. Fusce accumsan efficitur orci a commodo.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">TRAIN YOUR DRAGON</h2>
+                                <p>Mauris at sapien nibh. Integer id tellus vitae ante cursus pharetra. Vestibulum ultrices eleifend enim, quis maximus nibh dapibus in. Phasellus lacinia nec leo at semper. Duis nisl odio, lacinia quis dui at, pretium tincidunt metus. Maecenas condimentum purus sit amet neque maximus tempor. Proin eros massa, ullamcorper eget rutrum eu, feugiat id purus.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="button secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row game-card">
+                <div class="col-lg-12 col-xl-5 game-card-left">
+                    <a href="#" class="js-video-button" data-video-id='DPBW_MFqeRs' data-channel="youtube"> <!-- Video link goes here -->
+                        <div class="overlay">
+                            <i class="fa fa-play fa-3x"></i>
+                        </div>
+                        <img src="{{asset('frontend/images/placeholder.jpg')}}" data-src="{{asset('frontend/images/game.jpg')}}" class="img-fluid b-lazy" alt="video thumbnail"> <!-- Video Thumbnail Img -->
+                    </a>
+                </div>
+                <div class="col-lg-12 col-xl-7 game-card-right">
+                    <h2 class="short-hr-left">Calculator</h2>
+                    <p class="game-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis rhoncus nibh. Phasellus dignissim luctus consectetur. Fusce viverra est non purus ultrices, vel molestie massa tincidunt. <span class="expand colored strong" data-toggle="modal" data-target="#game1">Read More</span></p>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade game-modal" id="game1" tabindex="-1" role="dialog" aria-labelledby="scales" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title" id="scales">SWORDS &amp; SCALES</h1>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <h2 class="short-hr-left">TEAM UP AND FIGHT DRAGONS</h2>
+                                <p>Integer eget diam felis. Quisque et aliquet lectus, et lacinia turpis. Praesent eget pretium orci. Sed vestibulum rutrum volutpat. Curabitur feugiat arcu odio, quis convallis eros laoreet ac.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">MAKE FRIENDS</h2>
+                                <p>Suspendisse ultricies, dui vitae convallis blandit, ipsum sem mattis diam, in egestas arcu lacus sed lectus. Donec at interdum tellus. Quisque pellentesque a felis et rutrum. Donec condimentum magna sit amet viverra convallis. Fusce accumsan efficitur orci a commodo.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">TRAIN YOUR DRAGON</h2>
+                                <p>Mauris at sapien nibh. Integer id tellus vitae ante cursus pharetra. Vestibulum ultrices eleifend enim, quis maximus nibh dapibus in. Phasellus lacinia nec leo at semper. Duis nisl odio, lacinia quis dui at, pretium tincidunt metus. Maecenas condimentum purus sit amet neque maximus tempor. Proin eros massa, ullamcorper eget rutrum eu, feugiat id purus.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="button secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row game-card">
+                <div class="col-lg-12 col-xl-5 game-card-left">
+                    <a href="#" class="js-video-button" data-video-id='DPBW_MFqeRs' data-channel="youtube"> <!-- Video link goes here -->
+                        <div class="overlay">
+                            <i class="fa fa-play fa-3x"></i>
+                        </div>
+                        <img src="{{asset('frontend/images/placeholder.jpg')}}" data-src="{{asset('frontend/images/game.jpg')}}" class="img-fluid b-lazy" alt="video thumbnail"> <!-- Video Thumbnail Img -->
+                    </a>
+                </div>
+                <div class="col-lg-12 col-xl-7 game-card-right">
+                    <h2 class="short-hr-left">Dog Fight</h2>
+                    <p class="game-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis rhoncus nibh. Phasellus dignissim luctus consectetur. Fusce viverra est non purus ultrices, vel molestie massa tincidunt. <span class="expand colored strong" data-toggle="modal" data-target="#game1">Read More</span></p>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade game-modal" id="game1" tabindex="-1" role="dialog" aria-labelledby="scales" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title" id="scales">SWORDS &amp; SCALES</h1>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <h2 class="short-hr-left">TEAM UP AND FIGHT DRAGONS</h2>
+                                <p>Integer eget diam felis. Quisque et aliquet lectus, et lacinia turpis. Praesent eget pretium orci. Sed vestibulum rutrum volutpat. Curabitur feugiat arcu odio, quis convallis eros laoreet ac.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">MAKE FRIENDS</h2>
+                                <p>Suspendisse ultricies, dui vitae convallis blandit, ipsum sem mattis diam, in egestas arcu lacus sed lectus. Donec at interdum tellus. Quisque pellentesque a felis et rutrum. Donec condimentum magna sit amet viverra convallis. Fusce accumsan efficitur orci a commodo.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">TRAIN YOUR DRAGON</h2>
+                                <p>Mauris at sapien nibh. Integer id tellus vitae ante cursus pharetra. Vestibulum ultrices eleifend enim, quis maximus nibh dapibus in. Phasellus lacinia nec leo at semper. Duis nisl odio, lacinia quis dui at, pretium tincidunt metus. Maecenas condimentum purus sit amet neque maximus tempor. Proin eros massa, ullamcorper eget rutrum eu, feugiat id purus.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="button secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row game-card">
+                <div class="col-lg-12 col-xl-5 game-card-left">
+                    <a href="#" class="js-video-button" data-video-id='DPBW_MFqeRs' data-channel="youtube"> <!-- Video link goes here -->
+                        <div class="overlay">
+                            <i class="fa fa-play fa-3x"></i>
+                        </div>
+                        <img src="{{asset('frontend/images/placeholder.jpg')}}" data-src="{{asset('frontend/images/game.jpg')}}" class="img-fluid b-lazy" alt="video thumbnail"> <!-- Video Thumbnail Img -->
+                    </a>
+                </div>
+                <div class="col-lg-12 col-xl-7 game-card-right">
+                    <h2 class="short-hr-left">Xylophone</h2>
+                    <p class="game-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis rhoncus nibh. Phasellus dignissim luctus consectetur. Fusce viverra est non purus ultrices, vel molestie massa tincidunt. <span class="expand colored strong" data-toggle="modal" data-target="#game1">Read More</span></p>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade game-modal" id="game1" tabindex="-1" role="dialog" aria-labelledby="scales" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title" id="scales">SWORDS &amp; SCALES</h1>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <h2 class="short-hr-left">TEAM UP AND FIGHT DRAGONS</h2>
+                                <p>Integer eget diam felis. Quisque et aliquet lectus, et lacinia turpis. Praesent eget pretium orci. Sed vestibulum rutrum volutpat. Curabitur feugiat arcu odio, quis convallis eros laoreet ac.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">MAKE FRIENDS</h2>
+                                <p>Suspendisse ultricies, dui vitae convallis blandit, ipsum sem mattis diam, in egestas arcu lacus sed lectus. Donec at interdum tellus. Quisque pellentesque a felis et rutrum. Donec condimentum magna sit amet viverra convallis. Fusce accumsan efficitur orci a commodo.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">TRAIN YOUR DRAGON</h2>
+                                <p>Mauris at sapien nibh. Integer id tellus vitae ante cursus pharetra. Vestibulum ultrices eleifend enim, quis maximus nibh dapibus in. Phasellus lacinia nec leo at semper. Duis nisl odio, lacinia quis dui at, pretium tincidunt metus. Maecenas condimentum purus sit amet neque maximus tempor. Proin eros massa, ullamcorper eget rutrum eu, feugiat id purus.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="button secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row game-card">
+                <div class="col-lg-12 col-xl-5 game-card-left">
+                    <a href="#" class="js-video-button" data-video-id='DPBW_MFqeRs' data-channel="youtube"> <!-- Video link goes here -->
+                        <div class="overlay">
+                            <i class="fa fa-play fa-3x"></i>
+                        </div>
+                        <img src="{{asset('frontend/images/placeholder.jpg')}}" data-src="{{asset('frontend/images/game.jpg')}}" class="img-fluid b-lazy" alt="video thumbnail"> <!-- Video Thumbnail Img -->
+                    </a>
+                </div>
+                <div class="col-lg-12 col-xl-7 game-card-right">
+                    <h2 class="short-hr-left">Spy Alarm</h2>
+                    <p class="game-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis rhoncus nibh. Phasellus dignissim luctus consectetur. Fusce viverra est non purus ultrices, vel molestie massa tincidunt. <span class="expand colored strong" data-toggle="modal" data-target="#game1">Read More</span></p>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade game-modal" id="game1" tabindex="-1" role="dialog" aria-labelledby="scales" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title" id="scales">SWORDS &amp; SCALES</h1>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <h2 class="short-hr-left">TEAM UP AND FIGHT DRAGONS</h2>
+                                <p>Integer eget diam felis. Quisque et aliquet lectus, et lacinia turpis. Praesent eget pretium orci. Sed vestibulum rutrum volutpat. Curabitur feugiat arcu odio, quis convallis eros laoreet ac.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">MAKE FRIENDS</h2>
+                                <p>Suspendisse ultricies, dui vitae convallis blandit, ipsum sem mattis diam, in egestas arcu lacus sed lectus. Donec at interdum tellus. Quisque pellentesque a felis et rutrum. Donec condimentum magna sit amet viverra convallis. Fusce accumsan efficitur orci a commodo.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">TRAIN YOUR DRAGON</h2>
+                                <p>Mauris at sapien nibh. Integer id tellus vitae ante cursus pharetra. Vestibulum ultrices eleifend enim, quis maximus nibh dapibus in. Phasellus lacinia nec leo at semper. Duis nisl odio, lacinia quis dui at, pretium tincidunt metus. Maecenas condimentum purus sit amet neque maximus tempor. Proin eros massa, ullamcorper eget rutrum eu, feugiat id purus.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="button secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row game-card">
+                <div class="col-lg-12 col-xl-5 game-card-left">
+                    <a href="#" class="js-video-button" data-video-id='DPBW_MFqeRs' data-channel="youtube"> <!-- Video link goes here -->
+                        <div class="overlay">
+                            <i class="fa fa-play fa-3x"></i>
+                        </div>
+                        <img src="{{asset('frontend/images/placeholder.jpg')}}" data-src="{{asset('frontend/images/game.jpg')}}" class="img-fluid b-lazy" alt="video thumbnail"> <!-- Video Thumbnail Img -->
+                    </a>
+                </div>
+                <div class="col-lg-12 col-xl-7 game-card-right">
+                    <h2 class="short-hr-left">Hand Pan</h2>
+                    <p class="game-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis rhoncus nibh. Phasellus dignissim luctus consectetur. Fusce viverra est non purus ultrices, vel molestie massa tincidunt. <span class="expand colored strong" data-toggle="modal" data-target="#game1">Read More</span></p>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade game-modal" id="game1" tabindex="-1" role="dialog" aria-labelledby="scales" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title" id="scales">SWORDS &amp; SCALES</h1>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <h2 class="short-hr-left">TEAM UP AND FIGHT DRAGONS</h2>
+                                <p>Integer eget diam felis. Quisque et aliquet lectus, et lacinia turpis. Praesent eget pretium orci. Sed vestibulum rutrum volutpat. Curabitur feugiat arcu odio, quis convallis eros laoreet ac.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">MAKE FRIENDS</h2>
+                                <p>Suspendisse ultricies, dui vitae convallis blandit, ipsum sem mattis diam, in egestas arcu lacus sed lectus. Donec at interdum tellus. Quisque pellentesque a felis et rutrum. Donec condimentum magna sit amet viverra convallis. Fusce accumsan efficitur orci a commodo.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">TRAIN YOUR DRAGON</h2>
+                                <p>Mauris at sapien nibh. Integer id tellus vitae ante cursus pharetra. Vestibulum ultrices eleifend enim, quis maximus nibh dapibus in. Phasellus lacinia nec leo at semper. Duis nisl odio, lacinia quis dui at, pretium tincidunt metus. Maecenas condimentum purus sit amet neque maximus tempor. Proin eros massa, ullamcorper eget rutrum eu, feugiat id purus.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="button secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
-
     <div id="careers" class='large-margin'>
         <div class="row">
             <div class="col-md-12 text-center">
