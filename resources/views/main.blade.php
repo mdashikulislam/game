@@ -54,17 +54,16 @@
 <body>
 <!-- Loading Screen -->
 <div id="loader-wrapper">
-    <h1 class="loader-logo"><span class="colored">S</span>TRIDER</h1>
+    <h1 class="loader-logo"><span class="colored">Sabecltd</span></h1>
     <div id="progress"></div>
     <h3 class="loader-text">LOADING</h3>
 </div>
 
-<!-- //// HEADER //// -->
 <header id="main-header">
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
         <div class="container">
             <!-- Site Logo -->
-            <a id="logo" class="navbar-brand" href="#"><img class="img-fluid" src="{{asset('frontend/images/logo.png')}}" alt="site logo"></a>
+            <a id="logo" class="navbar-brand" href="#"><img style="max-width: 200px" class="img-fluid" src="{{asset('frontend/images/logo.png')}}" alt="site logo"></a>
             <!-- Dropdown Button -->
             <button id="hamburger" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="icon-bar"></span>
@@ -127,7 +126,7 @@
                 <img id="awards" src="{{asset('frontend/images/awards.png')}}" class="img-fluid" alt="awads">
             </div>
             <div class="col-md-6">
-                <img id="support-image" src="{{asset('frontend/images/placeholder.jpg')}}" data-src="{{asset('frontend/images/about.jpg')}}" class="img-fluid b-lazy" alt="digital collage">
+                <img style="width: 385px;height: 305px" id="support-image" src="{{asset('frontend/images/placeholder.jpg')}}" data-src="{{asset('frontend/images/about.png')}}" class="img-fluid b-lazy" alt="digital collage">
             </div>
         </div>
     </div>
@@ -146,19 +145,11 @@
             <div class="col-md-11 small-margin">
                 <p>Here at Strider games we pride ourselves in delivering rich and polished experiences that our fanbase can enjoy and immerse themselve into. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis rhoncus nibh.</p>
             </div>
-            <div class="col-md-12">
-                <ul class="game-tags">
-                    <li>Sort By Tag :</li>
-                    <li><a href="#" data-filter=".new">NEW</a></li>
-                    <li><a href="#" data-filter="*">ALL</a></li>
-                    <li><a href="#" data-filter=".pc">PC</a></li>
-                    <li><a href="#" data-filter=".mobile">MOBILE</a></li>
-                </ul>
-            </div>
+
         </div>
         <div class="games-portfolio ">
             <!-- Game Card Video -->
-            <div class="row game-card pc new">
+            <div class="row game-card">
                 <div class="col-lg-12 col-xl-5 game-card-left">
                     <a href="#" class="js-video-button" data-video-id='DPBW_MFqeRs' data-channel="youtube"> <!-- Video link goes here -->
                         <div class="overlay">
@@ -168,29 +159,8 @@
                     </a>
                 </div>
                 <div class="col-lg-12 col-xl-7 game-card-right">
-                    <h2 class="short-hr-left">SWORDS &amp; SCLAES - DRAGON RISING</h2>
-                    <p class="tags"><span class="subtle">Action RPG | PC</span> </p>
+                    <h2 class="short-hr-left">South Park</h2>
                     <p class="game-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis rhoncus nibh. Phasellus dignissim luctus consectetur. Fusce viverra est non purus ultrices, vel molestie massa tincidunt. <span class="expand colored strong" data-toggle="modal" data-target="#game1">Read More</span></p>
-                    <div class="steam-btn">
-                        <a href="#">
-                            <i class="fa fa-steam fa-3x"></i>
-                            <p>GET IT ON <br><span class="spaced">STEAM</span></p>
-                        </a>
-                    </div>
-                    <div class="reviews">
-                        <a href="#"><div class="score-card">
-                                <p class="score">8.0</p>
-                                <p>Gamespot</p>
-                            </div></a>
-                        <a href="#"><div class="score-card">
-                                <p class="score">7.9</p>
-                                <p>IGN</p>
-                            </div></a>
-                        <a href="#"><div class="score-card">
-                                <p class="score">86</p>
-                                <p>Metacritic</p>
-                            </div></a>
-                    </div>
                 </div>
                 <!-- Modal -->
                 <div class="modal fade game-modal" id="game1" tabindex="-1" role="dialog" aria-labelledby="scales" aria-hidden="true">
@@ -220,12 +190,10 @@
                         </div>
                     </div>
                 </div>
-            </div><!-- Game Card End -->
-
-            <!-- Game Card Video -->
-            <div class="row game-card mobile new">
+            </div>
+            <div class="row game-card">
                 <div class="col-lg-12 col-xl-5 game-card-left">
-                    <a href="#" class="js-video-button" data-video-id='285232623' data-channel="vimeo"> <!-- Video link goes here -->
+                    <a href="#" class="js-video-button" data-video-id='DPBW_MFqeRs' data-channel="youtube"> <!-- Video link goes here -->
                         <div class="overlay">
                             <i class="fa fa-play fa-3x"></i>
                         </div>
@@ -233,120 +201,29 @@
                     </a>
                 </div>
                 <div class="col-lg-12 col-xl-7 game-card-right">
-                    <h2 class="short-hr-left">BEDLAMBORNE</h2>
-                    <p class="tags"><span class="subtle">Horror Adventure | Mobile</span> </p>
-                    <p class="game-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis rhoncus nibh. Phasellus dignissim luctus consectetur. Fusce viverra est non purus ultrices, vel molestie massa tincidunt. <span class="expand colored strong" data-toggle="modal" data-target="#game2">Read More</span></p>
-                    <a href="#" class="button-store">
-                        <i class="fa fa-android fa-2x"></i>
-                        <p>Available on<br><span class="strong">Google Play</span></p>
-                    </a>
-                    <a href="#" class="button-store">
-                        <i class="fa fa-apple fa-2x"></i>
-                        <p>Available on<br><span class="strong">Apple Store</span></p>
-                    </a>
-                    <div class="rating">
-                        <p class="strong">4.5</p>
-                        <ul>
-                            <li><i class="fa fa-star colored"></i></li>
-                            <li><i class="fa fa-star colored"></i></li>
-                            <li><i class="fa fa-star colored"></i></li>
-                            <li><i class="fa fa-star colored"></i></li>
-                            <li><i class="fa fa-star-o"></i></li>
-                        </ul>
-                    </div>
-                </div>
-                <!-- Modal -->
-                <div class="modal fade game-modal" id="game2" tabindex="-1" role="dialog" aria-labelledby="bedlam" aria-hidden="true">
-                    <div class="modal-dialog modal-lg" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h1 class="modal-title" id="bedlam">BEDLAMBORNE</h1>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-                            </div>
-                            <div class="modal-body">
-                                <h2 class="short-hr-left">A DARK WORLD</h2>
-                                <p>Integer eget diam felis. Quisque et aliquet lectus, et lacinia turpis. Praesent eget pretium orci. Sed vestibulum rutrum volutpat. Curabitur feugiat arcu odio, quis convallis eros laoreet ac.</p>
-                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
-                                <br>
-                                <h2 class="short-hr-left">ENGAGING STORY</h2>
-                                <p>Suspendisse ultricies, dui vitae convallis blandit, ipsum sem mattis diam, in egestas arcu lacus sed lectus. Donec at interdum tellus. Quisque pellentesque a felis et rutrum. Donec condimentum magna sit amet viverra convallis. Fusce accumsan efficitur orci a commodo.</p>
-                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
-                                <br>
-                                <h2 class="short-hr-left">INTERESTING CHARACTERS</h2>
-                                <p>Mauris at sapien nibh. Integer id tellus vitae ante cursus pharetra. Vestibulum ultrices eleifend enim, quis maximus nibh dapibus in. Phasellus lacinia nec leo at semper. Duis nisl odio, lacinia quis dui at, pretium tincidunt metus. Maecenas condimentum purus sit amet neque maximus tempor. Proin eros massa, ullamcorper eget rutrum eu, feugiat id purus.</p>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="button secondary" data-dismiss="modal">Close</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div><!-- Game Card End -->
-
-            <!-- Game Card -->
-            <div class="row game-card pc">
-                <div class="col-lg-12 col-xl-5 game-card-left">
-                    <a href="{{asset('frontend/images/game_large.jpg')}}" data-lightbox="screenshots_aurora">
-                        <div class="overlay">
-                            <i class="fa fa-picture-o fa-3x"></i>
-                        </div>
-                        <picture>
-                            <source media="(min-width: 1200px)" srcset="{{asset('frontend/images/game.jpg')}}">
-                            <source media="(min-width: 768px)" srcset="{{asset('frontend/images/game_large.jpg')}}">
-                            <img src="{{asset('frontend/images/placeholder.jpg')}}" data-src="{{asset('frontend/images/game.jpg')}}" class="img-fluid b-lazy" alt="aurora image">
-                        </picture>
-                    </a>
-                    <a href="{{asset('frontend/images/game_large.jpg')}}" data-lightbox="screenshots_aurora"></a>
-                    <a href="{{asset('frontend/images/game_large.jpg')}}" data-lightbox="screenshots_aurora"></a>
-                </div>
-                <div class="col-lg-12 col-xl-7 game-card-right">
-                    <h2 class="short-hr-left">AURORA AWAKENING</h2>
-                    <p class="tags"><span class="subtle">Action RPG | PC</span> </p>
+                    <h2 class="short-hr-left">Trivial Pursuit</h2>
                     <p class="game-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis rhoncus nibh. Phasellus dignissim luctus consectetur. Fusce viverra est non purus ultrices, vel molestie massa tincidunt. <span class="expand colored strong" data-toggle="modal" data-target="#game1">Read More</span></p>
-                    <div class="steam-btn">
-                        <a href="#">
-                            <i class="fa fa-steam fa-3x"></i>
-                            <p>GET IT ON <br><span class="spaced">STEAM</span></p>
-                        </a>
-                    </div>
-                    <div class="reviews">
-                        <a href="#"><div class="score-card">
-                                <p class="score">8.5</p>
-                                <p>Gamespot</p>
-                            </div></a>
-                        <a href="#"><div class="score-card">
-                                <p class="score">8.1</p>
-                                <p>IGN</p>
-                            </div></a>
-                        <a href="#"><div class="score-card">
-                                <p class="score">83</p>
-                                <p>Metacritic</p>
-                            </div></a>
-                    </div>
                 </div>
                 <!-- Modal -->
-                <div class="modal fade game-modal" id="game3" tabindex="-1" role="dialog" aria-labelledby="aurora" aria-hidden="true">
+                <div class="modal fade game-modal" id="game1" tabindex="-1" role="dialog" aria-labelledby="scales" aria-hidden="true">
                     <div class="modal-dialog modal-lg" role="document">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <h1 class="modal-title" id="aurora">AURORA AWAKENING</h1>
+                                <h1 class="modal-title" id="scales">SWORDS &amp; SCALES</h1>
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
                                 </button>
                             </div>
                             <div class="modal-body">
-                                <iframe class="modal-vid" src="https://www.youtube.com/embed/DPBW_MFqeRs?rel=0&amp;showinfo=0" allowfullscreen></iframe>
-                                <h2 class="short-hr-left">EXPLORE AN EXPANSIVE WORLD</h2>
+                                <h2 class="short-hr-left">TEAM UP AND FIGHT DRAGONS</h2>
                                 <p>Integer eget diam felis. Quisque et aliquet lectus, et lacinia turpis. Praesent eget pretium orci. Sed vestibulum rutrum volutpat. Curabitur feugiat arcu odio, quis convallis eros laoreet ac.</p>
                                 <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
                                 <br>
-                                <h2 class="short-hr-left">ADAPT AND DEVELOP YOUR CHARACTER</h2>
+                                <h2 class="short-hr-left">MAKE FRIENDS</h2>
                                 <p>Suspendisse ultricies, dui vitae convallis blandit, ipsum sem mattis diam, in egestas arcu lacus sed lectus. Donec at interdum tellus. Quisque pellentesque a felis et rutrum. Donec condimentum magna sit amet viverra convallis. Fusce accumsan efficitur orci a commodo.</p>
                                 <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
                                 <br>
-                                <h2 class="short-hr-left">GET IMMERSED IN A DEEP STORY</h2>
+                                <h2 class="short-hr-left">TRAIN YOUR DRAGON</h2>
                                 <p>Mauris at sapien nibh. Integer id tellus vitae ante cursus pharetra. Vestibulum ultrices eleifend enim, quis maximus nibh dapibus in. Phasellus lacinia nec leo at semper. Duis nisl odio, lacinia quis dui at, pretium tincidunt metus. Maecenas condimentum purus sit amet neque maximus tempor. Proin eros massa, ullamcorper eget rutrum eu, feugiat id purus.</p>
                             </div>
                             <div class="modal-footer">
@@ -355,68 +232,40 @@
                         </div>
                     </div>
                 </div>
-            </div><!-- Game Card End -->
-
-            <!-- Game Card -->
-            <div class="row game-card mobile">
+            </div>
+            <div class="row game-card">
                 <div class="col-lg-12 col-xl-5 game-card-left">
-                    <a href="{{asset('frontend/images/game_large.jpg')}}" data-lightbox="screenshots_dark">
+                    <a href="#" class="js-video-button" data-video-id='DPBW_MFqeRs' data-channel="youtube"> <!-- Video link goes here -->
                         <div class="overlay">
-                            <i class="fa fa-picture-o fa-3x"></i>
+                            <i class="fa fa-play fa-3x"></i>
                         </div>
-                        <picture>
-                            <source media="(min-width: 1200px)" srcset="{{asset('frontend/images/game.jpg')}}">
-                            <source media="(min-width: 768px)" srcset="{{asset('frontend/images/game_large.jpg')}}">
-                            <img src="{{asset('frontend/images/placeholder.jpg')}}" data-src="images/game.jpg" class="img-fluid b-lazy" alt="aurora image">
-                        </picture>
+                        <img src="{{asset('frontend/images/placeholder.jpg')}}" data-src="{{asset('frontend/images/game.jpg')}}" class="img-fluid b-lazy" alt="video thumbnail"> <!-- Video Thumbnail Img -->
                     </a>
-                    <a href="{{asset('frontend/images/game_large.jpg')}}" data-lightbox="screenshots_dark"></a>
-                    <a href="{{asset('frontend/images/game_large.jpg')}}" data-lightbox="screenshots_dark"></a>
                 </div>
                 <div class="col-lg-12 col-xl-7 game-card-right">
-                    <h2 class="short-hr-left">ECHO - DARK ADVENTURES</h2>
-                    <p class="tags"><span class="subtle">Adventure | Mobile</span></p>
-                    <p class="game-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis rhoncus nibh. Phasellus dignissim luctus consectetur. Fusce viverra est non purus ultrices, vel molestie massa tincidunt. <span class="expand colored strong" data-toggle="modal" data-target="#game2">Read More</span></p>
-                    <a href="#" class="button-store">
-                        <i class="fa fa-android fa-2x"></i>
-                        <p>Available on<br><span class="strong">Google Play</span></p>
-                    </a>
-                    <a href="#" class="button-store">
-                        <i class="fa fa-apple fa-2x"></i>
-                        <p>Available on<br><span class="strong">Apple Store</span></p>
-                    </a>
-                    <div class="rating">
-                        <p class="strong">4.1</p>
-                        <ul>
-                            <li><i class="fa fa-star colored"></i></li>
-                            <li><i class="fa fa-star colored"></i></li>
-                            <li><i class="fa fa-star colored"></i></li>
-                            <li><i class="fa fa-star colored"></i></li>
-                            <li><i class="fa fa-star-o"></i></li>
-                        </ul>
-                    </div>
+                    <h2 class="short-hr-left">Trivia for Dummies</h2>
+                    <p class="game-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis rhoncus nibh. Phasellus dignissim luctus consectetur. Fusce viverra est non purus ultrices, vel molestie massa tincidunt. <span class="expand colored strong" data-toggle="modal" data-target="#game1">Read More</span></p>
                 </div>
                 <!-- Modal -->
-                <div class="modal fade game-modal" id="game4" tabindex="-1" role="dialog" aria-labelledby="echo" aria-hidden="true">
+                <div class="modal fade game-modal" id="game1" tabindex="-1" role="dialog" aria-labelledby="scales" aria-hidden="true">
                     <div class="modal-dialog modal-lg" role="document">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <h1 class="modal-title" id="echo">ECHO - DARK ADVENTURES</h1>
+                                <h1 class="modal-title" id="scales">SWORDS &amp; SCALES</h1>
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
                                 </button>
                             </div>
                             <div class="modal-body">
-                                <iframe class="modal-vid" src="https://www.youtube.com/embed/73vSguCeJl0?rel=0&amp;showinfo=0" allowfullscreen></iframe>
-                                <h2 class="short-hr-left">EXPLORE AN EXPANSIVE WORLD</h2>
+                                <h2 class="short-hr-left">TEAM UP AND FIGHT DRAGONS</h2>
                                 <p>Integer eget diam felis. Quisque et aliquet lectus, et lacinia turpis. Praesent eget pretium orci. Sed vestibulum rutrum volutpat. Curabitur feugiat arcu odio, quis convallis eros laoreet ac.</p>
                                 <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
                                 <br>
-                                <h2 class="short-hr-left">GET IMMERSED IN A FANTASTIC STORY</h2>
+                                <h2 class="short-hr-left">MAKE FRIENDS</h2>
                                 <p>Suspendisse ultricies, dui vitae convallis blandit, ipsum sem mattis diam, in egestas arcu lacus sed lectus. Donec at interdum tellus. Quisque pellentesque a felis et rutrum. Donec condimentum magna sit amet viverra convallis. Fusce accumsan efficitur orci a commodo.</p>
                                 <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
                                 <br>
-                                <h2 class="short-hr-left">ADAPT AND DEVELOP YOUR CHARACTER</h2>
+                                <h2 class="short-hr-left">TRAIN YOUR DRAGON</h2>
                                 <p>Mauris at sapien nibh. Integer id tellus vitae ante cursus pharetra. Vestibulum ultrices eleifend enim, quis maximus nibh dapibus in. Phasellus lacinia nec leo at semper. Duis nisl odio, lacinia quis dui at, pretium tincidunt metus. Maecenas condimentum purus sit amet neque maximus tempor. Proin eros massa, ullamcorper eget rutrum eu, feugiat id purus.</p>
                             </div>
                             <div class="modal-footer">
@@ -425,313 +274,53 @@
                         </div>
                     </div>
                 </div>
-            </div><!-- Game Card End -->
-        </div>
-    </div>
-    <!-- /// TEAM SECTION /// -->
-    <div id="team" class="large-margin">
-        <a href="team"></a><!-- Nav Anchor -->
-        <div class="row heading tiny-margin">
-            <div class="col-md-auto">
-                <h1 class="animation-element slide-down">THE <span class="colored">TEAM</span></h1>
             </div>
-            <div class="col">
-                <hr class="animation-element extend">
-            </div>
-        </div>
-        <div class="row medium-margin">
-            <div class="col-md-11 tiny-margin">
-                <p>Our passion unites us. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tincidunt mi ut mauris varius, vitae lobortis erat ullamcorper. Pellentesque vel dolor non nisi fringilla scelerisque in non ante.</p>
-            </div>
-            <div id="full-row" class="row text-center">
-                <div class="col-md-3 team-card">
-                    <figure>
-                        <img src="{{asset('frontend/images/placeholder.jpg')}}" data-src="{{asset('frontend/images/team.jpg')}}" class="img-fluid b-lazy" alt="teammember">
-                        <figcaption class="team-caption">
-                            <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit.”</p>
-                            <hr class="hr-short">
-                            <ul>
-                                <li><a href="#"><i class="fa fa-facebook fa-lg"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter fa-lg"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin fa-lg"></i></a></li>
-                            </ul>
-                        </figcaption>
-                    </figure>
-                    <p class="team-name">Vladimir M.</p>
-                    <p class="subtle">Lead Designer</p>
-                </div>
-                <div class="col-md-3 team-card">
-                    <figure>
-                        <img src="{{asset('frontend/images/placeholder.jpg')}}" data-src="{{asset('frontend/images/team.jpg')}}" class="img-fluid b-lazy" alt="teammember">
-                        <figcaption class="team-caption">
-                            <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit.”</p>
-                            <hr class="hr-short">
-                            <ul>
-                                <li><a href="#"><i class="fa fa-facebook fa-lg"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter fa-lg"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin fa-lg"></i></a></li>
-                            </ul>
-                        </figcaption>
-                    </figure>
-                    <p class="team-name">Asimov R.</p>
-                    <p class="subtle">Founder</p>
-                </div>
-                <div class="col-md-3 team-card">
-                    <figure>
-                        <img src="{{asset('frontend/images/placeholder.jpg')}}" data-src="{{asset('frontend/images/team.jpg')}}" class="img-fluid b-lazy" alt="teammember">
-                        <figcaption class="team-caption">
-                            <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit.”</p>
-                            <hr class="hr-short">
-                            <ul>
-                                <li><a href="#"><i class="fa fa-facebook fa-lg"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter fa-lg"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin fa-lg"></i></a></li>
-                            </ul>
-                        </figcaption>
-                    </figure>
-                    <p class="team-name">Natalia I.</p>
-                    <p class="subtle">Lead Artist</p>
-                </div>
-                <div class="col-md-3 team-card">
-                    <figure>
-                        <img src="{{asset('frontend/images/placeholder.jpg')}}" data-src="{{asset('frontend/images/team.jpg')}}" class="img-fluid b-lazy" alt="teammember">
-                        <figcaption class="team-caption">
-                            <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit.”</p>
-                            <hr class="hr-short">
-                            <ul>
-                                <li><a href="#"><i class="fa fa-facebook fa-lg"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter fa-lg"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin fa-lg"></i></a></li>
-                            </ul>
-                        </figcaption>
-                    </figure>
-                    <p class="team-name">Dimitri A.</p>
-                    <p class="subtle">Programmer</p>
-                </div>
-            </div>
-        </div>
-        <div class="row tiny-margin">
-            <div class="col-md-11">
-                <h2 class="short-hr-left">OUR STUDIO</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt, nisl non mattis sollicitudin, risus quam tempor sem, vel interdum est libero non odio.</p>
-            </div>
-        </div>
-        <div class="grid-gallery">
-            <div class="row">
-                <div class="col-md-4 gallery-item">
-                    <a href="{{asset('frontend/images/studio.jpg')}}" data-lightbox="studio_gallery">
-                        <div class="overlay gallery">
-                            <i class="fa fa-picture-o fa-3x"></i>
+            <div class="row game-card">
+                <div class="col-lg-12 col-xl-5 game-card-left">
+                    <a href="#" class="js-video-button" data-video-id='DPBW_MFqeRs' data-channel="youtube"> <!-- Video link goes here -->
+                        <div class="overlay">
+                            <i class="fa fa-play fa-3x"></i>
                         </div>
-                        <img src="{{asset('frontend/images/placeholder.jpg')}}" data-src="{{asset('frontend/images/studio.jpg')}}" class="img-fluid b-lazy" alt="">
+                        <img src="{{asset('frontend/images/placeholder.jpg')}}" data-src="{{asset('frontend/images/game.jpg')}}" class="img-fluid b-lazy" alt="video thumbnail"> <!-- Video Thumbnail Img -->
                     </a>
                 </div>
-                <div class="col-md-4 gallery-item">
-                    <a href="{{asset('frontend/images/studio.jpg')}}" data-lightbox="studio_gallery">
-                        <div class="overlay gallery">
-                            <i class="fa fa-picture-o fa-3x"></i>
-                        </div>
-                        <img src="{{asset('frontend/images/placeholder.jpg')}}" data-src="{{asset('frontend/images/studio.jpg')}}" class="img-fluid b-lazy" alt="">
-                    </a>
+                <div class="col-lg-12 col-xl-7 game-card-right">
+                    <h2 class="short-hr-left">Pimp My Ride</h2>
+                    <p class="game-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis rhoncus nibh. Phasellus dignissim luctus consectetur. Fusce viverra est non purus ultrices, vel molestie massa tincidunt. <span class="expand colored strong" data-toggle="modal" data-target="#game1">Read More</span></p>
                 </div>
-                <div class="col-md-4 gallery-item">
-                    <a href="{{asset('frontend/images/studio.jpg')}}" data-lightbox="studio_gallery">
-                        <div class="overlay gallery">
-                            <i class="fa fa-picture-o fa-3x"></i>
+                <!-- Modal -->
+                <div class="modal fade game-modal" id="game1" tabindex="-1" role="dialog" aria-labelledby="scales" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title" id="scales">SWORDS &amp; SCALES</h1>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <h2 class="short-hr-left">TEAM UP AND FIGHT DRAGONS</h2>
+                                <p>Integer eget diam felis. Quisque et aliquet lectus, et lacinia turpis. Praesent eget pretium orci. Sed vestibulum rutrum volutpat. Curabitur feugiat arcu odio, quis convallis eros laoreet ac.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">MAKE FRIENDS</h2>
+                                <p>Suspendisse ultricies, dui vitae convallis blandit, ipsum sem mattis diam, in egestas arcu lacus sed lectus. Donec at interdum tellus. Quisque pellentesque a felis et rutrum. Donec condimentum magna sit amet viverra convallis. Fusce accumsan efficitur orci a commodo.</p>
+                                <img class="img-fluid" src="{{asset('frontend/images/game_large.jpg')}}" alt="screenshot">
+                                <br>
+                                <h2 class="short-hr-left">TRAIN YOUR DRAGON</h2>
+                                <p>Mauris at sapien nibh. Integer id tellus vitae ante cursus pharetra. Vestibulum ultrices eleifend enim, quis maximus nibh dapibus in. Phasellus lacinia nec leo at semper. Duis nisl odio, lacinia quis dui at, pretium tincidunt metus. Maecenas condimentum purus sit amet neque maximus tempor. Proin eros massa, ullamcorper eget rutrum eu, feugiat id purus.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="button secondary" data-dismiss="modal">Close</button>
+                            </div>
                         </div>
-                        <img src="{{asset('frontend/images/placeholder.jpg')}}" data-src="{{asset('frontend/images/studio.jpg')}}" class="img-fluid b-lazy" alt="">
-                    </a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4 gallery-item">
-                    <a href="{{asset('frontend/images/studio.jpg')}}" data-lightbox="studio_gallery">
-                        <div class="overlay gallery">
-                            <i class="fa fa-picture-o fa-3x"></i>
-                        </div>
-                        <img src="{{asset('frontend/images/placeholder.jpg')}}" data-src="{{asset('frontend/images/studio.jpg')}}" class="img-fluid b-lazy" alt="">
-                    </a>
-                </div>
-                <div class="col-md-4 gallery-item">
-                    <a href="{{asset('frontend/images/studio.jpg')}}" data-lightbox="studio_gallery">
-                        <div class="overlay gallery">
-                            <i class="fa fa-picture-o fa-3x"></i>
-                        </div>
-                        <img src="{{asset('frontend/images/placeholder.jpg')}}" data-src="{{asset('frontend/images/studio.jpg')}}" class="img-fluid b-lazy" alt="">
-                    </a>
-                </div>
-                <div class="col-md-4 gallery-item">
-                    <a href="{{asset('frontend/images/studio.jpg')}}" data-lightbox="studio_gallery">
-                        <div class="overlay gallery">
-                            <i class="fa fa-picture-o fa-3x"></i>
-                        </div>
-                        <img src="{{asset('frontend/images/placeholder.jpg')}}" data-src="{{asset('frontend/images/studio.jpg')}}" class="img-fluid b-lazy" alt="">
-                    </a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- /// CAREERS SECTION /// -->
+
     <div id="careers" class='large-margin'>
-        <a href="careers"></a><!-- Nav Anchor -->
-        <div class="row heading tiny-margin">
-            <div class="col-md-auto">
-                <h1 class="animation-element slide-down">WE'RE <span class="colored">HIRING</span></h1>
-            </div>
-            <div class="col">
-                <hr class="animation-element extend">
-            </div>
-        </div>
-        <div class="row medium-margin">
-            <div class="col-md-11">
-                <h2 class="short-hr-left">JOB OPENINGS</h2>
-                <p>Are you a talented and motivated individual? Then we would love to have you in our team. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt, nisl non mattis sollicitudin, risus quam tempor sem, vel interdum est libero non odio.</p><br>
-            </div>
-            <div class="col-md-4">
-                <div class="job-card">
-                    <h3 class="colored">LEAD PROGRAMMER</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <button class="button" data-toggle="modal" data-target="#modal1">View Details</button>
-                </div>
-                <!-- Modal -->
-                <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="lead-programmer" aria-hidden="true">
-                    <div class="modal-dialog modal-lg" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h2 class="modal-title colored" id="lead-programmer">LEAD PROGRAMMER</h2>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-                            </div>
-                            <div class="modal-body">
-                                <h3>THE IDEAL CANDIDATE:</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt, nisl non mattis sollicitudin, risus quam tempor sem, vel interdum est libero non odio.</p>
-                                <ul class="skill-list">
-                                    <li>C++</li>
-                                    <li>Dream Weaver</li>
-                                    <li>Unreal Engine</li>
-                                    <li>Blender</li>
-                                    <li>Scale Form</li>
-                                </ul>
-                                <br>
-                                <h3>REQUIREMENTS:</h3>
-                                <ul>
-                                    <li><p>B.Sc. in Computer Science and/or Mathematics</p></li>
-                                    <li><p>Proficient with c++ and object-oriented programming</p></li>
-                                    <li><p>Development experience in the games industry a plus.</p></li>
-                                    <li><p>Strong communication and organizational skills</p></li>
-                                    <li><p>Must work well under pressure and handle multiple tasks</p></li>
-                                    <li><p>Passion for making GREAT games</p></li>
-                                </ul>
-                                <br>
-                                <h3>HOW TO APPLY:</h3>
-                                <p>If you think you have what it takes to join our team you an apply here <a href="mailto:office@example.com" >office@example.com</a></p>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="button secondary" data-dismiss="modal">Close</button>
-                                <a href="mailto:office@example.com" class="button">Apply</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="job-card">
-                    <h3 class="colored">LEVEL DESIGNER</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <button class="button" data-toggle="modal" data-target="#modal2">View Details</button>
-                </div>
-                <!-- Modal -->
-                <div class="modal fade " id="modal2" tabindex="-1" role="dialog" aria-labelledby="level-designer" aria-hidden="true">
-                    <div class="modal-dialog modal-lg" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h2 class="modal-title colored" id="level-designer">LEVEL DESIGNER</h2>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-                            </div>
-                            <div class="modal-body">
-                                <h3>THE IDEAL CANDIDATE:</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt, nisl non mattis sollicitudin, risus quam tempor sem, vel interdum est libero non odio.</p>
-                                <ul class="skill-list">
-                                    <li>C++</li>
-                                    <li>Dream Weaver</li>
-                                    <li>Unreal Engine</li>
-                                    <li>Blender</li>
-                                    <li>Scale Form</li>
-                                </ul>
-                                <br>
-                                <h3>REQUIREMENTS:</h3>
-                                <ul>
-                                    <li><p>B.Sc. in Computer Science and/or Mathematics</p></li>
-                                    <li><p>Proficient with c++ and object-oriented programming</p></li>
-                                    <li><p>Development experience in the games industry a plus.</p></li>
-                                    <li><p>Strong communication and organizational skills</p></li>
-                                    <li><p>Must work well under pressure and handle multiple tasks</p></li>
-                                    <li><p>Passion for making GREAT games</p></li>
-                                </ul>
-                                <br>
-                                <h3>HOW TO APPLY:</h3>
-                                <p>If you think you have what it takes to join our team you an apply here <a href="mailto:office@example.com" >office@example.com</a></p>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="button secondary" data-dismiss="modal">Close</button>
-                                <a href="mailto:office@example.com" class="button">Apply</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="job-card">
-                    <h3 class="colored">AI ENGINEER</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <button class="button" data-toggle="modal" data-target="#modal3">View Details</button>
-                </div>
-                <!-- Modal -->
-                <div class="modal fade " id="modal3" tabindex="-1" role="dialog" aria-labelledby="ai-engineer" aria-hidden="true">
-                    <div class="modal-dialog modal-lg" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h2 class="modal-title colored" id="ai-engineer">AI ENGINEER</h2>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-                            </div>
-                            <div class="modal-body">
-                                <h3>THE IDEAL CANDIDATE:</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt, nisl non mattis sollicitudin, risus quam tempor sem, vel interdum est libero non odio.</p>
-                                <ul class="skill-list">
-                                    <li>C++</li>
-                                    <li>Dream Weaver</li>
-                                    <li>Unreal Engine</li>
-                                    <li>Blender</li>
-                                    <li>Scale Form</li>
-                                </ul>
-                                <br>
-                                <h3>REQUIREMENTS:</h3>
-                                <ul>
-                                    <li><p>B.Sc. in Computer Science and/or Mathematics</p></li>
-                                    <li><p>Proficient with c++ and object-oriented programming</p></li>
-                                    <li><p>Development experience in the games industry a plus.</p></li>
-                                    <li><p>Strong communication and organizational skills</p></li>
-                                    <li><p>Must work well under pressure and handle multiple tasks</p></li>
-                                    <li><p>Passion for making GREAT games</p></li>
-                                </ul>
-                                <br>
-                                <h3>HOW TO APPLY:</h3>
-                                <p>If you think you have what it takes to join our team you an apply here <a href="mailto:office@example.com" >office@example.com</a></p>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="button secondary" data-dismiss="modal">Close</button>
-                                <a href="mailto:office@example.com" class="button">Apply</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
         <div class="row">
             <div class="col-md-12 text-center">
                 <h2 class="short-hr-center">OUR NEWSLETTER</h2>
