@@ -2430,19 +2430,7 @@
 
         </div>
     </div>
-    <div id="careers" class='large-margin'>
-        <div class="row">
-            <div class="col-md-12 text-center">
-                <h2 class="short-hr-center">OUR NEWSLETTER</h2>
-                <p>Stay up to date with the team and our products by subscribing to our newsletter.</p>
-                <form id="newsletter" data-toggle="validator">
-                    <input type="email" id="emailsign" placeholder="Your email adress"> <!-- Email Field -->
-                    <button type="submit" id="form-signup" class="button">SUBSCRIBE</button>
-                    <div id="msgSignup" class="h3 text-center hidden"></div>
-                </form>
-            </div>
-        </div>
-    </div>
+
     <!-- /// CONTACT SECTION /// -->
     <div id="contact" class="large-margin">
         <a href="contact"></a><!-- Nav Anchor -->
@@ -2496,8 +2484,7 @@
                             <li><i class="fa fa-map-marker"></i><p>Address: <span class="colored">1168 12th Street East Oconomowoc, WI 53066</span></p></li>
                         </ul>
                     </div>
-                    <!-- Google Map -->
-                    <div id="map-canvas"></div>
+
                 </div>
             </div>
         </div>
@@ -2509,7 +2496,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <p id="copyright">&copy; Atypical Themes <span id="year"> </span></p><!-- Copyright Text -->
+                    <p id="copyright">&copy; Sabcltd <span id="year"> </span></p><!-- Copyright Text -->
                     <ul class="social-links"> <!-- Social Media Icons -->
                         <li><a href="#"><i class="fa fa-facebook fa-lg icon-social"></i></a></li>
                         <li><a href="#"><i class="fa fa-twitter  fa-lg icon-social"></i></a></li>
@@ -2534,6 +2521,6 @@
 <script src="{{asset('frontend/js/jquery-modal-video.min.js')}}"></script>
 <script src="{{asset('frontend/js/validator.min.js')}}"></script>
 <script src="{{asset('frontend/js/strider.js')}}"></script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB64kJJiSynOc9ZqkNMOyl94cvsw5Z2uno"></script>
+
 </body>
 </html>
